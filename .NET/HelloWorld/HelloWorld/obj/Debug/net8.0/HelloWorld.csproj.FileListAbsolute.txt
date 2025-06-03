@@ -1,0 +1,15 @@
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.exe
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.deps.json
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.runtimeconfig.json
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.dll
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\bin\Debug\net8.0\HelloWorld.pdb
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfoInputs.cache
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfo.cs
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.sourcelink.json
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.dll
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\refint\HelloWorld.dll
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
+D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll
