@@ -6,11 +6,12 @@
         {
             int x = 10;
             int y = 20;
+            int sum = 0;
 
             if (x <= y)
             {
                 Console.WriteLine("Hello World");
-                int sum = x + y;
+                sum = x + y;
                 Console.WriteLine(sum);
             }
 
@@ -30,6 +31,10 @@
 
             // Location of the letter D
             int charPos = name.IndexOf("D");
+
+            if (name.Contains("o") && sum >= 12) {
+                Console.WriteLine("Yay");
+            }
 
             // Get last name
             string lastName = name.Substring(charPos);
