@@ -1,0 +1,15 @@
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\Array.AssemblyInfoInputs.cache
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\Array.AssemblyInfo.cs
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\Array.csproj.CoreCompileInputs.cache
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\Array.sourcelink.json
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\bin\Debug\net8.0\Array.exe
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\bin\Debug\net8.0\Array.deps.json
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\bin\Debug\net8.0\Array.runtimeconfig.json
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\bin\Debug\net8.0\Array.dll
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\bin\Debug\net8.0\Array.pdb
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\Array.dll
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\refint\Array.dll
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\Array.pdb
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\Array.genruntimeconfig.cache
+D:\Stuff\Github\My_Study\.NET\Learning_Basic\Array\obj\Debug\net8.0\ref\Array.dll

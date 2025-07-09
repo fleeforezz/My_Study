@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Cabinet\\Github\\My_Study\\.NET\\HelloWorld\\",
+  "WorkspaceRootPath": "D:\\Stuff\\Github\\My_Study\\.NET\\HelloWorld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA7F86CD-1FA6-4029-87B5-12EA058FC96A}|HelloWorld\\HelloWorld.csproj|d:\\cabinet\\github\\my_study\\.net\\helloworld\\helloworld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA7F86CD-1FA6-4029-87B5-12EA058FC96A}|HelloWorld\\HelloWorld.csproj|d:\\stuff\\github\\my_study\\.net\\helloworld\\helloworld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA7F86CD-1FA6-4029-87B5-12EA058FC96A}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Cabinet\\Github\\My_Study\\.NET\\HelloWorld\\HelloWorld\\Program.cs",
+              "DocumentMoniker": "D:\\Stuff\\Github\\My_Study\\.NET\\HelloWorld\\HelloWorld\\Program.cs",
               "RelativeDocumentMoniker": "HelloWorld\\Program.cs",
-              "ToolTip": "D:\\Cabinet\\Github\\My_Study\\.NET\\HelloWorld\\HelloWorld\\Program.cs",
+              "ToolTip": "D:\\Stuff\\Github\\My_Study\\.NET\\HelloWorld\\HelloWorld\\Program.cs",
               "RelativeToolTip": "HelloWorld\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T08:33:45.498Z",
+              "WhenOpened": "2025-07-09T16:49:17.499Z",
               "EditorCaption": ""
             }
           ]

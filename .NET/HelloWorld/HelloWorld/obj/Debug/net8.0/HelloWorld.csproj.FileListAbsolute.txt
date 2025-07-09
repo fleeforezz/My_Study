@@ -13,3 +13,6 @@ D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\refint\He
 D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
 D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
 D:\Cabinet\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll
+D:\Stuff\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.dll
+D:\Stuff\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\refint\HelloWorld.dll
+D:\Stuff\Github\My_Study\.NET\HelloWorld\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
