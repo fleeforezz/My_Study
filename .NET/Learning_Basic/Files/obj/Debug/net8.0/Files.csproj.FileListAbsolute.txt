@@ -1,0 +1,15 @@
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\bin\Debug\net8.0\Files.exe
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\bin\Debug\net8.0\Files.deps.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\bin\Debug\net8.0\Files.runtimeconfig.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\bin\Debug\net8.0\Files.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\bin\Debug\net8.0\Files.pdb
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\Files.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\Files.AssemblyInfoInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\Files.AssemblyInfo.cs
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\Files.csproj.CoreCompileInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\Files.sourcelink.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\Files.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\refint\Files.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\Files.pdb
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\Files.genruntimeconfig.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Files\obj\Debug\net8.0\ref\Files.dll

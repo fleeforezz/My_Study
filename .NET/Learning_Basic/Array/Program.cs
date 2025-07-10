@@ -8,9 +8,14 @@
 
             Console.WriteLine($"Length = {intArr.Length}");
 
-            for (int i = 0; i <= intArr.Length; i++)
+            for (int i = 0; i < intArr.Length; i++)
             {
                 Console.WriteLine( intArr[i] );
+            }
+
+            foreach (var item in intArr)
+            {
+                Console.WriteLine(item);
             }
         }
     }
