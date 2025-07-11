@@ -1,0 +1,15 @@
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\bin\Debug\net8.0\Collections.exe
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\bin\Debug\net8.0\Collections.deps.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\bin\Debug\net8.0\Collections.runtimeconfig.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\bin\Debug\net8.0\Collections.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\bin\Debug\net8.0\Collections.pdb
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\Collections.AssemblyInfoInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\Collections.AssemblyInfo.cs
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\Collections.csproj.CoreCompileInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\Collections.sourcelink.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\Collections.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\refint\Collections.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\Collections.pdb
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\Collections.genruntimeconfig.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Collections\obj\Debug\net8.0\ref\Collections.dll

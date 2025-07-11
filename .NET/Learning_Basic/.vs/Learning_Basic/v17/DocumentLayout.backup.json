@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08FF6202-5918-4FFC-B8DF-2EF737803503}|Files\\Files.csproj|e:\\cabinet\\github\\my_study\\.net\\learning_basic\\files\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FF6202-5918-4FFC-B8DF-2EF737803503}|Files\\Files.csproj|solutionrelative:files\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFEBE73-64AD-46A6-8C72-6264360B1907}|Lamda\\Lamda.csproj|e:\\cabinet\\github\\my_study\\.net\\learning_basic\\lamda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFEBE73-64AD-46A6-8C72-6264360B1907}|Lamda\\Lamda.csproj|solutionrelative:lamda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\Files\\Program.cs",
-              "RelativeDocumentMoniker": "Files\\Program.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\Files\\Program.cs*",
-              "RelativeToolTip": "Files\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\Lamda\\Program.cs",
+              "RelativeDocumentMoniker": "Lamda\\Program.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\Lamda\\Program.cs",
+              "RelativeToolTip": "Lamda\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T06:07:13.244Z",
+              "WhenOpened": "2025-07-11T04:45:11.56Z",
               "EditorCaption": ""
             }
           ]

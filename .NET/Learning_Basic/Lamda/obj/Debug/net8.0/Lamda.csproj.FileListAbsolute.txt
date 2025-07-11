@@ -1,0 +1,15 @@
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\bin\Debug\net8.0\Lamda.exe
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\bin\Debug\net8.0\Lamda.deps.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\bin\Debug\net8.0\Lamda.runtimeconfig.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\bin\Debug\net8.0\Lamda.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\bin\Debug\net8.0\Lamda.pdb
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\Lamda.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\Lamda.AssemblyInfoInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\Lamda.AssemblyInfo.cs
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\Lamda.csproj.CoreCompileInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\Lamda.sourcelink.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\Lamda.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\refint\Lamda.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\Lamda.pdb
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\Lamda.genruntimeconfig.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\Lamda\obj\Debug\net8.0\ref\Lamda.dll
