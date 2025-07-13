@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFEBE73-64AD-46A6-8C72-6264360B1907}|Lamda\\Lamda.csproj|e:\\cabinet\\github\\my_study\\.net\\learning_basic\\lamda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFEBE73-64AD-46A6-8C72-6264360B1907}|Lamda\\Lamda.csproj|solutionrelative:lamda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}|LinQ2\\LinQ2.csproj|e:\\cabinet\\github\\my_study\\.net\\learning_basic\\linq2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}|LinQ2\\LinQ2.csproj|solutionrelative:linq2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}|LinQ2\\LinQ2.csproj|e:\\cabinet\\github\\my_study\\.net\\learning_basic\\linq2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}|LinQ2\\LinQ2.csproj|solutionrelative:linq2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +18,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\LinQ2\\Student.cs",
+              "RelativeDocumentMoniker": "LinQ2\\Student.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\LinQ2\\Student.cs",
+              "RelativeToolTip": "LinQ2\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T04:39:29.523Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\Lamda\\Program.cs",
-              "RelativeDocumentMoniker": "Lamda\\Program.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\Lamda\\Program.cs",
-              "RelativeToolTip": "Lamda\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBIAAAAuAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\LinQ2\\Program.cs",
+              "RelativeDocumentMoniker": "LinQ2\\Program.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\LinQ2\\Program.cs*",
+              "RelativeToolTip": "LinQ2\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T04:45:11.56Z",
+              "WhenOpened": "2025-07-13T04:37:12.781Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,15 @@
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\bin\Debug\net8.0\LinQ2.exe
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\bin\Debug\net8.0\LinQ2.deps.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\bin\Debug\net8.0\LinQ2.runtimeconfig.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\bin\Debug\net8.0\LinQ2.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\bin\Debug\net8.0\LinQ2.pdb
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\LinQ2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\LinQ2.AssemblyInfoInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\LinQ2.AssemblyInfo.cs
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\LinQ2.csproj.CoreCompileInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\LinQ2.sourcelink.json
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\LinQ2.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\refint\LinQ2.dll
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\LinQ2.pdb
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\LinQ2.genruntimeconfig.cache
+E:\Cabinet\Github\My_Study\.NET\Learning_Basic\LinQ2\obj\Debug\net8.0\ref\LinQ2.dll

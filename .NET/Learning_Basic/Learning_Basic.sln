@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lamda", "Lamda\Lamda.csproj", "{DDFEBE73-64AD-46A6-8C72-6264360B1907}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ", "LinQ\LinQ.csproj", "{D851DF93-5A00-467C-843D-240B387DDC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ2", "LinQ2\LinQ2.csproj", "{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{DDFEBE73-64AD-46A6-8C72-6264360B1907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDFEBE73-64AD-46A6-8C72-6264360B1907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDFEBE73-64AD-46A6-8C72-6264360B1907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D851DF93-5A00-467C-843D-240B387DDC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D851DF93-5A00-467C-843D-240B387DDC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D851DF93-5A00-467C-843D-240B387DDC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D851DF93-5A00-467C-843D-240B387DDC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
