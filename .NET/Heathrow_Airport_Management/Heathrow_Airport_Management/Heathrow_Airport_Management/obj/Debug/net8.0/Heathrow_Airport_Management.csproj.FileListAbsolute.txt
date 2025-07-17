@@ -1,0 +1,5 @@
+D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Heathrow_Airport_Management\obj\Debug\net8.0\Heathrow_Airport_Management.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Heathrow_Airport_Management\obj\Debug\net8.0\Heathrow_Airport_Management.AssemblyInfoInputs.cache
+D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Heathrow_Airport_Management\obj\Debug\net8.0\Heathrow_Airport_Management.AssemblyInfo.cs
+D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Heathrow_Airport_Management\obj\Debug\net8.0\Heathrow_Airport_Management.csproj.CoreCompileInputs.cache
+D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Heathrow_Airport_Management\obj\Debug\net8.0\Heathrow_Airport_Management.sourcelink.json
