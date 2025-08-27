@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}|LinQ2\\LinQ2.csproj|e:\\cabinet\\github\\my_study\\.net\\learning_basic\\linq2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}|LinQ2\\LinQ2.csproj|solutionrelative:linq2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}|LinQ2\\LinQ2.csproj|e:\\cabinet\\github\\my_study\\.net\\learning_basic\\linq2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}|LinQ2\\LinQ2.csproj|solutionrelative:linq2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F78E3D91-58B2-48F4-AA91-CC8707A0E61A}|OOP\\OOP.csproj|e:\\cabinet\\github\\my_study\\.net\\learning_basic\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F78E3D91-58B2-48F4-AA91-CC8707A0E61A}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\LinQ2\\Student.cs",
-              "RelativeDocumentMoniker": "LinQ2\\Student.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\LinQ2\\Student.cs",
-              "RelativeToolTip": "LinQ2\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T04:39:29.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\LinQ2\\Program.cs",
-              "RelativeDocumentMoniker": "LinQ2\\Program.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\LinQ2\\Program.cs*",
-              "RelativeToolTip": "LinQ2\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\OOP\\Program.cs",
+              "RelativeDocumentMoniker": "OOP\\Program.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Learning_Basic\\OOP\\Program.cs",
+              "RelativeToolTip": "OOP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T04:37:12.781Z",
+              "WhenOpened": "2025-08-27T04:15:04.327Z",
               "EditorCaption": ""
             }
           ]

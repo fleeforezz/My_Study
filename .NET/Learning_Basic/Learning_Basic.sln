@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ", "LinQ\LinQ.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ2", "LinQ2\LinQ2.csproj", "{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{F78E3D91-58B2-48F4-AA91-CC8707A0E61A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05B5F39C-6A6C-4507-B83F-9EEE19C0AC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78E3D91-58B2-48F4-AA91-CC8707A0E61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78E3D91-58B2-48F4-AA91-CC8707A0E61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78E3D91-58B2-48F4-AA91-CC8707A0E61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78E3D91-58B2-48F4-AA91-CC8707A0E61A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
