@@ -3,3 +3,8 @@ D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Manag
 D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
 D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+E:\Cabinet\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cabinet\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+E:\Cabinet\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Domain\obj\Debug\net8.0\Domain.sourcelink.json
