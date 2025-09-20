@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\Repositories.csproj": {}
+    "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj": {
+    "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj",
+        "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
-        "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\obj\\",
+        "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj": {
+    "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj",
+        "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj",
+        "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj",
         "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
-        "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\obj\\",
+        "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -134,14 +134,14 @@
         }
       }
     },
-    "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\Repositories.csproj": {
+    "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\Repositories.csproj",
+        "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
-        "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\obj\\",
+        "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -162,11 +162,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj": {
-                "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj"
+              "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj": {
+                "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\Data.csproj"
               },
-              "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj": {
-                "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj"
+              "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj": {
+                "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Models.csproj"
               }
             }
           }
