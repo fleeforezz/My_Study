@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{762B6758-5F7B-4925-B2B0-658623A90C49}|Data\\Data.csproj|e:\\cabinet\\github\\my_study\\.net\\ecommerceapp\\data\\filedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762B6758-5F7B-4925-B2B0-658623A90C49}|Data\\Data.csproj|solutionrelative:data\\filedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C36C21D-3A21-493C-AA14-F9E029F523D2}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\ecommerceapp\\viewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C36C21D-3A21-493C-AA14-F9E029F523D2}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{5163438A-C117-4591-9191-F6B44A515B65}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762B6758-5F7B-4925-B2B0-658623A90C49}|Data\\Data.csproj|e:\\cabinet\\github\\my_study\\.net\\ecommerceapp\\data\\filedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762B6758-5F7B-4925-B2B0-658623A90C49}|Data\\Data.csproj|solutionrelative:data\\filedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5163438A-C117-4591-9191-F6B44A515B65}|Repositories\\Repositories.csproj|e:\\cabinet\\github\\my_study\\.net\\ecommerceapp\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5163438A-C117-4591-9191-F6B44A515B65}|Repositories\\Repositories.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "FileDatabase.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\FileDatabase.cs",
               "RelativeDocumentMoniker": "Data\\FileDatabase.cs",
               "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Data\\FileDatabase.cs",
               "RelativeToolTip": "Data\\FileDatabase.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T08:55:54.907Z",
               "EditorCaption": ""
@@ -87,12 +87,11 @@
               "RelativeToolTip": "Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T08:48:10.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T08:48:10.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IRepository.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IRepository.cs",
@@ -100,12 +99,11 @@
               "RelativeToolTip": "Repositories\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T08:43:29.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T08:43:29.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Order.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Order.cs",
               "RelativeDocumentMoniker": "Domain\\Order.cs",
@@ -113,12 +111,11 @@
               "RelativeToolTip": "Domain\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T08:41:57.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T08:41:57.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\Domain\\Product.cs",
               "RelativeDocumentMoniker": "Domain\\Product.cs",
@@ -126,18 +123,17 @@
               "RelativeToolTip": "Domain\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T08:37:22.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T08:37:22.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\ViewModel\\Program.cs",
               "RelativeDocumentMoniker": "ViewModel\\Program.cs",
               "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\EcommerceApp\\ViewModel\\Program.cs",
               "RelativeToolTip": "ViewModel\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwCMAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T08:30:42.881Z",
               "EditorCaption": ""
