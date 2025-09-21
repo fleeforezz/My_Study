@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Stuff\\Github\\My_Study\\.NET\\TodoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5DCDDF6-D383-423A-B893-C3F13EADD616}|Repositories\\Repositories.csproj|d:\\stuff\\github\\my_study\\.net\\todoapp\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5DCDDF6-D383-423A-B893-C3F13EADD616}|Repositories\\Repositories.csproj|solutionrelative:repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{921BCCB6-08F8-41B6-B149-06ED8000E9B0}|Data\\Data.csproj|d:\\stuff\\github\\my_study\\.net\\todoapp\\data\\filedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921BCCB6-08F8-41B6-B149-06ED8000E9B0}|Data\\Data.csproj|solutionrelative:data\\filedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5DCDDF6-D383-423A-B893-C3F13EADD616}|Repositories\\Repositories.csproj|d:\\stuff\\github\\my_study\\.net\\todoapp\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5DCDDF6-D383-423A-B893-C3F13EADD616}|Repositories\\Repositories.csproj|solutionrelative:repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AE42644-5F42-4A5C-ACFF-5B53884A227F}|ViewModel\\ViewModel.csproj|d:\\stuff\\github\\my_study\\.net\\todoapp\\viewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AE42644-5F42-4A5C-ACFF-5B53884A227F}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A20111A4-F108-4CDE-94C6-B37C3BD05542}|Models\\Models.csproj|d:\\stuff\\github\\my_study\\.net\\todoapp\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A20111A4-F108-4CDE-94C6-B37C3BD05542}|Models\\Models.csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5DCDDF6-D383-423A-B893-C3F13EADD616}|Repositories\\Repositories.csproj|d:\\stuff\\github\\my_study\\.net\\todoapp\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5DCDDF6-D383-423A-B893-C3F13EADD616}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A20111A4-F108-4CDE-94C6-B37C3BD05542}|Models\\Models.csproj|d:\\stuff\\github\\my_study\\.net\\todoapp\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20111A4-F108-4CDE-94C6-B37C3BD05542}|Models\\Models.csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,34 +61,37 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FileDatabase.cs",
               "DocumentMoniker": "D:\\Stuff\\Github\\My_Study\\.NET\\TodoApp\\Data\\FileDatabase.cs",
               "RelativeDocumentMoniker": "Data\\FileDatabase.cs",
               "ToolTip": "D:\\Stuff\\Github\\My_Study\\.NET\\TodoApp\\Data\\FileDatabase.cs",
               "RelativeToolTip": "Data\\FileDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T08:06:38.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "D:\\Stuff\\Github\\My_Study\\.NET\\TodoApp\\Repositories\\TaskRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\TaskRepository.cs",
               "ToolTip": "D:\\Stuff\\Github\\My_Study\\.NET\\TodoApp\\Repositories\\TaskRepository.cs",
               "RelativeToolTip": "Repositories\\TaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T08:04:38.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T08:04:38.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\Stuff\\Github\\My_Study\\.NET\\TodoApp\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IRepository.cs",
@@ -96,12 +99,11 @@
               "RelativeToolTip": "Repositories\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T08:00:40.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T08:00:40.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "D:\\Stuff\\Github\\My_Study\\.NET\\TodoApp\\Models\\TaskItem.cs",
               "RelativeDocumentMoniker": "Models\\TaskItem.cs",
@@ -109,8 +111,7 @@
               "RelativeToolTip": "Models\\TaskItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T07:57:36.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T07:57:36.17Z"
             },
             {
               "$type": "Document",
@@ -120,10 +121,9 @@
               "RelativeDocumentMoniker": "ViewModel\\Program.cs",
               "ToolTip": "D:\\Stuff\\Github\\My_Study\\.NET\\TodoApp\\ViewModel\\Program.cs",
               "RelativeToolTip": "ViewModel\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T07:56:01.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T07:56:01.835Z"
             }
           ]
         },
@@ -142,6 +142,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

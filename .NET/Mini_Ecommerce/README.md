@@ -6,7 +6,7 @@
 1. Entities
     + Product (Id, Name, Price, Stock)
     + Customer (Id, Name, Email)
-    + Order (Id, CustomerId, List of Products, TotalPrice)
+    + Order (Id, CustomerId, List of Products, TotalPrice, CreatedAt)
 
 2. Repositories
     + ProductRepository
