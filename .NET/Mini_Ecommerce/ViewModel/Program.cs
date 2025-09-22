@@ -1,4 +1,5 @@
-﻿using Repositories;
+﻿using Models;
+using Repositories;
 
 namespace ViewModel
 {
@@ -38,21 +39,109 @@ namespace ViewModel
                             switch (productChoice)
                             {
                                 case 1:
+                                    Console.Write("Enter Name: ");
+                                    string productName = Console.ReadLine();
+                                    Console.Write("Enter Price: ");
+                                    decimal productPrice = decimal.Parse(Console.ReadLine());
+                                    Console.Write("Enter Stock: ");
+                                    int productStock = int.Parse(Console.ReadLine());
+
+                                    Product product = new Product
+                                    {
+                                        Name = productName,
+                                        Price = productPrice,
+                                        Stock = productStock
+                                    };
+
+                                    productRepo.Add(product);
+                                    break;
+
+                                case 2:
+                                    if (productRepo.GetAll().ToList() == null)
+                                    {
+                                        Console.WriteLine("Product list is empty");
+                                    }
+                                    else
+                                    {
+                                        foreach (var item in productRepo.GetAll())
+                                        {
+                                            Console.WriteLine($"{item.Id} | {item.Name} | {item.Price} | {item.Stock}");
+                                        }
+                                    }
+                                    break;
+
+                                case 3:
+                                    Console.Write("Enter product ID: ");
+                                    string productId = Console.ReadLine();
+
+                                    if (!string.IsNullOrWhiteSpace(productId))
+                                    {
+                                        try
+                                        {
+                                            var guid = Guid.Parse(productId); // may throw if invalid format
+                                            var product1 = productRepo.GetById(guid);
+
+                                            if (product1 != null)
+                                            {
+                                                Console.Write("Enter new name: ");
+                                                string newProductName = Console.ReadLine();
+                                                Console.Write("Enter new price: ");
+                                                decimal newProductPrice = decimal.Parse(Console.ReadLine());
+                                                Console.Write("Enter new stock: ");
+                                                int newProductStock = int.Parse(Console.ReadLine());
+
+                                                if (!string.IsNullOrWhiteSpace(newProductName) && newProductPrice >= 0 && newProductStock >= 0)
+                                                {
+                                                    product1.Name = newProductName;
+                                                    product1.Price = newProductPrice;
+                                                    product1.Stock = newProductStock;
+
+                                                    productRepo.Update(product1);
+                                                    Console.WriteLine("Product updated successfully!");
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine("Input missing or invalid. Cancelled update!");
+                                                }
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine($"No product found with ID: {guid}");
+                                            }
+                                        }
+                                        catch (FormatException)
+                                        {
+                                            Console.WriteLine("Invalid ID format. Please enter a valid GUID.");
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            Console.WriteLine($"An unexpected error occurred: {ex.Message}");
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Must enter product ID in order to update!");
+                                    }
 
                                     break;
-                                case 2:
-                                    break;
-                                case 3:
-                                    break;
                                 case 4:
+                                    Console.Write("Enter product ID: ");
+                                    string productDelId = Console.ReadLine();
+
+                                    Product product2 = productRepo.GetById(Guid.Parse(productDelId));
+
+                                    if (product2 != null)
+                                    {
+
+                                    }
                                     break;
                                 case 0:
-                                    return;
+                                    break;
                                 default:
                                     Console.WriteLine("Invalid choice!!!");
                                     break;
                             }
-                        } while (choice > 0 && choice < 5);
+                        } while (choice > 0 && choice < 4);
                         break;
                     case 2:
                         break;

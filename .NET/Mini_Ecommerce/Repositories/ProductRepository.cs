@@ -29,46 +29,20 @@ namespace Repositories
             var products = _db.Load().ToList();
             var currentProduct = _db.Load().FirstOrDefault(p => p.Id == product.Id);
 
-            if (currentProduct != null)
-            {
-                products.Remove(currentProduct);
-                _db.SaveChanges(products);
-            }
-            else
-            {
-                Console.WriteLine("Cannot find target product to delete");
-            }
-            
+            products.Remove(currentProduct);
+            _db.SaveChanges(products);
+
         }
 
         public IEnumerable<Product> GetAll()
         {
-            var products = _db.Load();
-            if (products == null)
-            {
-                Console.WriteLine("List of product is empty!!!");
-            }
-
-            return products;
+            return _db.Load();
         }
 
         public Product GetById(Guid id)
         {
-            var product = _db.Load().FirstOrDefault(p => p.Id == id);
-            try
-            {
-                if (product != null)
-                {
-                    return product;
-                }
-            } 
-            catch (Exception e)
-            {
-                Console.WriteLine($"Product with Id: {id} not found\n" + e);
-            }
+            return _db.Load().FirstOrDefault(p => p.Id == id);
 
-            return null;
-            
         }
 
         public void Update(Product product)

@@ -1,0 +1,12 @@
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\bin\Debug\net9.0\Data.deps.json
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\bin\Debug\net9.0\Data.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\bin\Debug\net9.0\Data.pdb
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\obj\Debug\net9.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\obj\Debug\net9.0\Data.AssemblyInfoInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\obj\Debug\net9.0\Data.AssemblyInfo.cs
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\obj\Debug\net9.0\Data.csproj.CoreCompileInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\obj\Debug\net9.0\Data.sourcelink.json
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\obj\Debug\net9.0\Data.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\obj\Debug\net9.0\refint\Data.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\obj\Debug\net9.0\Data.pdb
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Data\obj\Debug\net9.0\ref\Data.dll
