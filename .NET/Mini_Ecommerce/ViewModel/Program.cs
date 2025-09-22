@@ -1,5 +1,6 @@
 ﻿using Models;
 using Repositories;
+using ViewModel.Utils;
 
 namespace ViewModel
 {
@@ -39,10 +40,18 @@ namespace ViewModel
                             switch (productChoice)
                             {
                                 case 1:
-                                    Console.Write("Enter Name: ");
-                                    string productName = Console.ReadLine();
-                                    Console.Write("Enter Price: ");
-                                    decimal productPrice = decimal.Parse(Console.ReadLine());
+                                    string productName = Inputter.NormalStringer(
+                                        "Enter Name:",
+                                        "Input cannot be empty",
+                                        true
+                                    );
+
+                                    int productPrice = Inputter.Inter(
+                                        "Enter Price:",
+                                        int.MinValue, int.MaxValue,
+                                        true
+                                    );
+
                                     Console.Write("Enter Stock: ");
                                     int productStock = int.Parse(Console.ReadLine());
 

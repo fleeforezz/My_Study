@@ -4,5 +4,11 @@
     "Name": "Nike SP Dunk",
     "Price": 123,
     "Stock": 12
+  },
+  {
+    "Id": "594870b0-8f12-4b6a-ae60-cbddb9e630f2",
+    "Name": "Gucci Watch",
+    "Price": 10000,
+    "Stock": 1
   }
 ]
