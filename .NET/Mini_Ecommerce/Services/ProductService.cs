@@ -65,11 +65,18 @@ namespace Services
                 throw new Exception("Product not found");
             }
 
-            product.Name = name;
-            product.Price = price;
-            product.Stock = stock;
+            try
+            {
+                product.Name = name;
+                product.Price = price;
+                product.Stock = stock;
 
-            _productRepo.Update(product);
+                _productRepo.Update(product);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         // Delete product service
