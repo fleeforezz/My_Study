@@ -20,7 +20,11 @@ namespace ViewModel
                 Console.WriteLine("4. Show order history for customer");
                 Console.WriteLine("0. Exit");
                 Console.Write("Select choice: ");
-                choice = int.Parse(Console.ReadLine());
+                choice = Inputter.Inter(
+                    "Select choice: ",
+                    1, 4,
+                    false
+                 );
 
                 switch (choice)
                 {
@@ -35,7 +39,11 @@ namespace ViewModel
                             Console.WriteLine("4. Delete product");
                             Console.WriteLine("0. Return to main menu");
                             Console.Write("Select choice: ");
-                            productChoice = int.Parse(Console.ReadLine());
+                            productChoice = Inputter.Inter(
+                                "Select choice: ",
+                                1, 4,
+                                false
+                            );
 
                             switch (productChoice)
                             {
@@ -46,14 +54,17 @@ namespace ViewModel
                                         true
                                     );
 
-                                    int productPrice = Inputter.Inter(
+                                    decimal productPrice = Inputter.Decimaler(
                                         "Enter Price:",
-                                        int.MinValue, int.MaxValue,
+                                        decimal.MinValue, decimal.MaxValue,
                                         true
                                     );
 
-                                    Console.Write("Enter Stock: ");
-                                    int productStock = int.Parse(Console.ReadLine());
+                                    int productStock = Inputter.Inter(
+                                        "Enter Stock: ",
+                                        int.MinValue, int.MaxValue,
+                                        true
+                                    );
 
                                     Product product = new Product
                                     {
@@ -80,8 +91,11 @@ namespace ViewModel
                                     break;
 
                                 case 3:
-                                    Console.Write("Enter product ID: ");
-                                    string productId = Console.ReadLine();
+                                    string productId = Inputter.NormalStringer(
+                                        "Enter product ID: ",
+                                        "Input cannot be empty",
+                                        false
+                                    );
 
                                     if (!string.IsNullOrWhiteSpace(productId))
                                     {

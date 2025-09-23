@@ -10,5 +10,11 @@
     "Name": "Gucci Watch",
     "Price": 10000,
     "Stock": 1
+  },
+  {
+    "Id": "50953c6a-c4a6-4b7d-8dfd-4cd3c4b29130",
+    "Name": "Channel",
+    "Price": 100000,
+    "Stock": 12
   }
 ]

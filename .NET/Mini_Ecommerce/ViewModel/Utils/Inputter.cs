@@ -33,9 +33,9 @@ namespace ViewModel.Utils
             while (true);
         }
 
-        public static string RegexStringer(string input, string inputMsg, string outputMsg, bool allowEmpty) 
-        { 
-            return input.Trim(); 
+        public static string RegexStringer(string input, string inputMsg, string outputMsg, bool allowEmpty)
+        {
+            return input.Trim();
         }
 
         public static int Inter(string inputMsg, int min, int max, bool allowEmpty)
@@ -71,6 +71,44 @@ namespace ViewModel.Utils
                 catch (Exception ex)
                 {
                     Console.WriteLine("Input must be a valid integer.");
+                    Console.WriteLine(ex);
+                }
+            }
+            while (true);
+        }
+
+        public static decimal Decimaler(string inputMsg, decimal min, decimal max, bool allowEmpty)
+        {
+            string result;
+
+            do
+            {
+                Console.Write($"{inputMsg}");
+                result = Console.ReadLine().Trim();
+
+                if ( allowEmpty && string.IsNullOrWhiteSpace(result))
+                {
+                    return 0;
+                }
+
+                if (!allowEmpty && string.IsNullOrWhiteSpace(result))
+                {
+                    Console.WriteLine("Input cannot be empty");
+                }
+
+                try
+                {
+                    decimal number = decimal.Parse(result);
+
+                    if ( number < min || number > max)
+                    {
+                        Console.WriteLine($"Input must between: {min} and {max}");
+                    }
+
+                    return number;
+                }
+                catch (Exception ex)
+                {
                     Console.WriteLine(ex);
                 }
             }

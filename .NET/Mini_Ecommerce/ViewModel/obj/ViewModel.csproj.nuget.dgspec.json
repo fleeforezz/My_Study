@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj": {}
+    "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj": {}
   },
   "projects": {
-    "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj": {
+    "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj",
+        "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
-        "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\obj\\",
+        "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
+    "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj",
+        "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
-        "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\obj\\",
+        "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -134,14 +134,14 @@
         }
       }
     },
-    "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
+    "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
+        "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
-        "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\obj\\",
+        "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -162,11 +162,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj": {
-                "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj"
+              "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj": {
+                "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj"
               },
-              "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
-                "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj"
+              "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
+                "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj"
               }
             }
           }
@@ -206,14 +206,14 @@
         }
       }
     },
-    "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj": {
+    "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
+        "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
         "projectName": "ViewModel",
-        "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
+        "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
         "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
-        "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\obj\\",
+        "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -234,11 +234,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
-                "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj"
+              "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
+                "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj"
               },
-              "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
-                "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj"
+              "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj"
               }
             }
           }
