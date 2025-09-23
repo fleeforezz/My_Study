@@ -23,7 +23,7 @@ namespace ViewModel
                     "Select choice: ",
                     1, 4,
                     false
-                 );
+                );
 
                 switch (choice)
                 {
@@ -31,8 +31,10 @@ namespace ViewModel
                         ManageProduct();
                         break;
                     case 2:
+                        RegisterCustomer();
                         break;
                     case 3:
+                        PlaceAnOrder();
                         break;
                     case 4:
                         break;
@@ -93,6 +95,7 @@ namespace ViewModel
                         };
 
                         productRepo.Add(product);
+                        Console.WriteLine("Product added!!!");
                         break;
 
                     case 2:
@@ -206,6 +209,34 @@ namespace ViewModel
                         break;
                 }
             } while (productChoice > 0 && productChoice < 4);
+        }
+
+        static void RegisterCustomer()
+        {
+            var customerRepo = new CustomerRepository("customer.json");
+
+            string customerName = Inputter.NormalStringer(
+                "Enter name: ",
+                false
+            );
+
+            string customerEmail = Inputter.NormalStringer(
+                "Enter email: ",
+                false
+            );
+
+            customerRepo.Add(new Customer
+            {
+                Name = customerName,
+                Email = customerEmail,
+            });
+
+            Console.WriteLine("Customer created!!!");
+        }
+
+        static void PlaceAnOrder()
+        {
+
         }
     }
 }

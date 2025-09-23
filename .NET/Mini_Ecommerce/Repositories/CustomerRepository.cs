@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using Data;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,29 +10,49 @@ namespace Repositories
 {
     public class CustomerRepository : IRepository<Customer>
     {
-        public void Add(Customer entity)
+        private readonly FileDatabase<Customer> _db;
+
+        public CustomerRepository(string filepath)
         {
-            throw new NotImplementedException();
+            _db = new FileDatabase<Customer>(filepath);
         }
 
-        public void Delete(Customer entity)
+        public void Add(Customer customer)
         {
-            throw new NotImplementedException();
+            var customers = _db.Load().ToList();
+
+            customers.Add(customer);
+            _db.SaveChanges(customers);
+        }
+
+        public void Delete(Customer customer)
+        {
+            var customers = _db.Load().ToList();
+
+            customers.RemoveAll(c => c.Id == customer.Id);
+            _db.SaveChanges(customers);
         }
 
         public IEnumerable<Customer> GetAll()
         {
-            throw new NotImplementedException();
+            return _db.Load();
         }
 
         public Customer GetById(Guid id)
         {
-            throw new NotImplementedException();
+            return _db.Load().SingleOrDefault(c => c.Id == id);
         }
 
-        public void Update(Customer entity)
+        public void Update(Customer customer)
         {
-            throw new NotImplementedException();
+            var customers = _db.Load().ToList();
+            var index = customers.FindIndex(c => c.Id == customer.Id);
+
+            if (index != null)
+            {
+                customers[index] = customer;
+                _db.SaveChanges(customers);
+            }
         }
     }
 }
