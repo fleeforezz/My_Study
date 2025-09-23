@@ -46,3 +46,5 @@ D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\ViewModel\obj\Debug\net9.0\refint\V
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\ViewModel\obj\Debug\net9.0\ViewModel.pdb
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\ViewModel\obj\Debug\net9.0\ViewModel.genruntimeconfig.cache
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\ViewModel\obj\Debug\net9.0\ref\ViewModel.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\ViewModel\bin\Debug\net9.0\Services.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\ViewModel\bin\Debug\net9.0\Services.pdb

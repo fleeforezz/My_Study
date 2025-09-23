@@ -72,12 +72,12 @@ namespace ViewModel
                 {
                     case 1:
                         string productName = Inputter.NormalStringer(
-                            "Enter Name:",
+                            "Enter Name: ",
                             true
                         );
 
                         decimal productPrice = Inputter.Decimaler(
-                            "Enter Price:",
+                            "Enter Price: ",
                             decimal.MinValue, decimal.MaxValue,
                             true
                         );
@@ -106,7 +106,7 @@ namespace ViewModel
 
                         if (!Guid.TryParse(productId, out Guid parsedId))
                         {
-                            Console.WriteLine("Invalid product ID format");
+                            Console.WriteLine("Invalid product ID format!!!");
                             return;
                         }
 
@@ -133,6 +133,31 @@ namespace ViewModel
 
                         break;
                     case 4:
+                        string productDelId = Inputter.NormalStringer("Enter product ID: ", false);
+
+                        if (!Guid.TryParse(productDelId, out parsedId))
+                        {
+                            Console.WriteLine("Invalid product ID format!!!");
+                            return;
+                        }
+
+                        var productDel = productService.GetProductById(parsedId);
+                        if (productDel == null)
+                        {
+                            Console.WriteLine("Product not found, update was cancelled!!!");
+                            return;
+                        }
+
+                        try
+                        {
+                            productService.DeleteProduct(parsedId);
+                            Console.WriteLine("Delete success!!!");
+                        }
+                        catch ( Exception ex )
+                        {
+                            Console.WriteLine($"Failed to delete: {ex.Message}");
+                        }
+
                         break;
 
                     case 0:
@@ -146,7 +171,7 @@ namespace ViewModel
 
         static void RegisterCustomer()
         {
-            var customerRepo = new CustomerRepository("customer.json");
+            var customerService = new CustomerService(new CustomerRepository("customer.json"));
 
             string customerName = Inputter.NormalStringer(
                 "Enter name: ",
@@ -158,11 +183,7 @@ namespace ViewModel
                 false
             );
 
-            customerRepo.Add(new Customer
-            {
-                Name = customerName,
-                Email = customerEmail,
-            });
+            customerService.AddCustomer(customerName, customerEmail);
 
             Console.WriteLine("Customer created!!!");
         }

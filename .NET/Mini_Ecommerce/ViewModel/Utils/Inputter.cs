@@ -15,7 +15,7 @@ namespace ViewModel.Utils
 
             do
             {
-                Console.Write($"{inputMsg} ");
+                Console.Write($"{inputMsg}");
                 result = Console.ReadLine().Trim();
 
                 if (allowEmpty && string.IsNullOrWhiteSpace(result))
@@ -23,7 +23,7 @@ namespace ViewModel.Utils
                     return "";
                 }
 
-                if (result != null && allowEmpty == false)
+                if (result == null && allowEmpty == false)
                 {
                     Console.WriteLine("Input cannot be empty");
                 }

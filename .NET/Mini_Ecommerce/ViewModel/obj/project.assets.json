@@ -87,11 +87,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
+      "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
       "projectName": "ViewModel",
-      "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
+      "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
       "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
-      "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\obj\\",
+      "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,14 +112,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
-              "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj"
+            "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
+              "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj"
             },
-            "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj"
+            "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
+              "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj"
             },
-            "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj": {
-              "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj"
+            "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj": {
+              "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj"
             }
           }
         }
