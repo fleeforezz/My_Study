@@ -10,24 +10,72 @@ namespace Services
 {
     public class ProductService
     {
-        private ProductRepository productRepository;
+        private ProductRepository _productRepo;
 
-        public ProductService(ProductRepository productRepository)
+        public ProductService(ProductRepository repo)
         {
-            this.productRepository = productRepository;
+            _productRepo = repo;
         }
 
-        public Product AddProduct(Product product)
+        // Get all product service
+        public IEnumerable<Product> GetAllProduct()
         {
-            product = new Product
+            var products = _productRepo.GetAll();
+
+            if (products == null)
             {
-                Name = product.Name,
-                Price = product.Price,
-                Stock = product.Stock
+                Console.WriteLine("Product list is empty!!!");
+                return Enumerable.Empty<Product>();
+            }
+
+            return products;
+        }
+
+        // Get product by id service
+        public Product GetProductById(Guid id)
+        {
+            return _productRepo.GetById(id);
+        }
+
+        // Add product service
+        public void AddProduct(string name, decimal price, int stock)
+        {
+            if (string.IsNullOrEmpty(name) || price < 0 || stock < 0)
+            {
+                throw new ArgumentException("Invalid product data");
+            }
+
+            var product = new Product
+            {
+                Name = name,
+                Price = price,
+                Stock = stock
             };
 
-            productRepository.Add(product);
-            return product;
+            _productRepo.Add(product);
+        }
+
+        // Update product service
+        public void UpdateProduct(Guid id, string name, decimal price, int stock)
+        {
+            var product = _productRepo.GetById(id);
+
+            if (product == null)
+            {
+                throw new Exception("Product not found");
+            }
+
+            product.Name = name;
+            product.Price = price;
+            product.Stock = stock;
+
+            _productRepo.Update(product);
+        }
+
+        // Delete product service
+        public void DeleteProduct(Guid id)
+        {
+            _productRepo.Delete(id);
         }
     }
 }

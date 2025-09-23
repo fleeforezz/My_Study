@@ -1,5 +1,6 @@
 # 🎯 Level-Up Project: Mini E-Commerce Console App
 
+## Level 1
 🚀 Let’s level up our console project. The next step is to add more real-world features and complexity so you practice OOP, design patterns, and data handling.
 
 ### 📦 Features to Add
@@ -26,7 +27,7 @@
     + Display menus and sub-menus
     + Validation (e.g., cannot order if stock is insufficient)
 
-# 📂 Project Structure
+### 📂 Project Structure
 ```
 MiniECommerce/
 │── Program.cs
@@ -41,4 +42,74 @@ MiniECommerce/
 │    ├── ProductRepository.cs
 │    ├── CustomerRepository.cs
 │    └── OrderRepository.cs
+```
+## Level 2
+Right now your project is a basic CRUD console app with a repository pattern and file persistence. We can “level it up” step by step into a more realistic mini e-commerce system.
+
+### 🛒 Level-Up Features
+#### 1. Entities & Relationships
+    + Product (already have)
+    + Customer (Id, Name, Email, Address)
+    + Order (Id, CustomerId, Date, List of OrderItems, TotalAmount)
+    + OrderItem (ProductId, Quantity, PriceAtPurchase)
+
+This introduces relationships (one-to-many between Order and OrderItems).
+
+#### 2. Repository Expansion
++ IRepository<T> stays generic.
++ Repositories:
+    + ProductRepository (done ✅)
+    + CustomerRepository
+    + OrderRepository (with ability to add new orders and load all customer orders).
+
+#### 3. Features for the Console App
+
+1. Product Management
+    + Add, update, delete, list.
+2. Customer Management
+    + Register new customers.
+    + View customers.
+3. Order Management
+    + Place an order (choose a customer, add products with quantity).
+    + Show order history for a customer.
+    + Calculate totals.
+4. Search
+    + Find products by name or price range.
+5. Reports
+    + Total revenue.
+    + Best-selling products.
+
+## Level 3
+Adding a Service Layer is exactly the next big step.
+It makes your project more clean, scalable, and testable because:
+
++ Repositories = raw data access (CRUD, persistence to local file).
++ Services = business logic (validation, calculations, rules).
++ Program/UI = only user interaction.
+
+### 🔑 Updated Architecture
+```
+ECommerceApp/
+│
+├── Models/
+│   ├── Product.cs
+│   ├── Customer.cs
+│   ├── Order.cs
+│   └── OrderItem.cs
+│
+├── Repositories/
+│   ├── IRepository.cs
+│   ├── ProductRepository.cs
+│   ├── CustomerRepository.cs
+│   └── OrderRepository.cs
+│
+├── Services/
+│   ├── ProductService.cs
+│   ├── CustomerService.cs
+│   └── OrderService.cs
+│
+├── Database/
+│   └── FileDatabase.cs   (JSON local storage)
+│
+└── Program.cs
 ```

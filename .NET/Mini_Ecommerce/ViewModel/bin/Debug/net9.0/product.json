@@ -10,5 +10,11 @@
     "Name": "Gucci Watch",
     "Price": 10000,
     "Stock": 1
+  },
+  {
+    "Id": "1c77b771-930b-4bdf-bd08-d17d61850592",
+    "Name": "Iphone 17 Pro",
+    "Price": 123323,
+    "Stock": 123
   }
 ]

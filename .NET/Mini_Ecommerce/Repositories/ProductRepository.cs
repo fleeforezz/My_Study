@@ -24,11 +24,11 @@ namespace Repositories
             _db.SaveChanges(products);
         }
 
-        public void Delete(Product product)
+        public void Delete(Guid id)
         {
             var products = _db.Load().ToList();
 
-            products.RemoveAll(p => p.Id == product.Id);
+            products.RemoveAll(p => p.Id == id);
             _db.SaveChanges(products);
         }
 

@@ -9,7 +9,8 @@
       "ViewModel/1.0.0": {
         "dependencies": {
           "Models": "1.0.0",
-          "Repositories": "1.0.0"
+          "Repositories": "1.0.0",
+          "Services": "1.0.0"
         },
         "runtime": {
           "ViewModel.dll": {}
@@ -42,6 +43,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "Repositories": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -62,6 +74,11 @@
       "sha512": ""
     },
     "Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

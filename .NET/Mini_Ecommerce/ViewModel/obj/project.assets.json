@@ -35,6 +35,19 @@
         "runtime": {
           "bin/placeholder/Repositories.dll": {}
         }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
       }
     }
   },
@@ -53,12 +66,18 @@
       "type": "project",
       "path": "../Repositories/Repositories.csproj",
       "msbuildProject": "../Repositories/Repositories.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Models >= 1.0.0",
-      "Repositories >= 1.0.0"
+      "Repositories >= 1.0.0",
+      "Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -98,6 +117,9 @@
             },
             "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
               "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj"
+            },
+            "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj": {
+              "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj"
             }
           }
         }

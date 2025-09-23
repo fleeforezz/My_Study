@@ -12,6 +12,6 @@ namespace Repositories
         void Update(T entity);
         IEnumerable<T> GetAll();
         T GetById(Guid id);
-        void Delete(T entity);
+        void Delete(Guid id);
     }
 }

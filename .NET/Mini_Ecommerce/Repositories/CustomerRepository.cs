@@ -25,11 +25,11 @@ namespace Repositories
             _db.SaveChanges(customers);
         }
 
-        public void Delete(Customer customer)
+        public void Delete(Guid id)
         {
             var customers = _db.Load().ToList();
 
-            customers.RemoveAll(c => c.Id == customer.Id);
+            customers.RemoveAll(c => c.Id == id);
             _db.SaveChanges(customers);
         }
 

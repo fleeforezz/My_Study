@@ -14,7 +14,7 @@ namespace Repositories
             throw new NotImplementedException();
         }
 
-        public void Delete(Order entity)
+        public void Delete(Guid id)
         {
             throw new NotImplementedException();
         }
