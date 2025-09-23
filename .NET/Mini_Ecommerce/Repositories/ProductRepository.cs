@@ -27,11 +27,9 @@ namespace Repositories
         public void Delete(Product product)
         {
             var products = _db.Load().ToList();
-            var currentProduct = _db.Load().FirstOrDefault(p => p.Id == product.Id);
 
-            products.Remove(currentProduct);
+            products.RemoveAll(p => p.Id == product.Id);
             _db.SaveChanges(products);
-
         }
 
         public IEnumerable<Product> GetAll()

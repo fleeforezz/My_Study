@@ -9,7 +9,7 @@ namespace ViewModel.Utils
 {
     public class Inputter
     {
-        public static string NormalStringer(string inputMsg, string outputMsg, bool allowEmpty)
+        public static string NormalStringer(string inputMsg, bool allowEmpty)
         {
             string result;
 
@@ -25,7 +25,7 @@ namespace ViewModel.Utils
 
                 if (result != null && allowEmpty == false)
                 {
-                    Console.WriteLine($"{outputMsg}");
+                    Console.WriteLine("Input cannot be empty");
                 }
 
                 return result;

@@ -8,7 +8,6 @@ namespace ViewModel
     {
         static void Main(string[] args)
         {
-            var productRepo = new ProductRepository("product.json");
             int choice = 0;
 
             do
@@ -29,142 +28,7 @@ namespace ViewModel
                 switch (choice)
                 {
                     case 1:
-                        int productChoice = 0;
-
-                        do
-                        {
-                            Console.WriteLine("1. Add new Product");
-                            Console.WriteLine("2. List all product");
-                            Console.WriteLine("3. Update product");
-                            Console.WriteLine("4. Delete product");
-                            Console.WriteLine("0. Return to main menu");
-                            Console.Write("Select choice: ");
-                            productChoice = Inputter.Inter(
-                                "Select choice: ",
-                                1, 4,
-                                false
-                            );
-
-                            switch (productChoice)
-                            {
-                                case 1:
-                                    string productName = Inputter.NormalStringer(
-                                        "Enter Name:",
-                                        "Input cannot be empty",
-                                        true
-                                    );
-
-                                    decimal productPrice = Inputter.Decimaler(
-                                        "Enter Price:",
-                                        decimal.MinValue, decimal.MaxValue,
-                                        true
-                                    );
-
-                                    int productStock = Inputter.Inter(
-                                        "Enter Stock: ",
-                                        int.MinValue, int.MaxValue,
-                                        true
-                                    );
-
-                                    Product product = new Product
-                                    {
-                                        Name = productName,
-                                        Price = productPrice,
-                                        Stock = productStock
-                                    };
-
-                                    productRepo.Add(product);
-                                    break;
-
-                                case 2:
-                                    if (productRepo.GetAll().ToList() == null)
-                                    {
-                                        Console.WriteLine("Product list is empty");
-                                    }
-                                    else
-                                    {
-                                        foreach (var item in productRepo.GetAll())
-                                        {
-                                            Console.WriteLine($"{item.Id} | {item.Name} | {item.Price} | {item.Stock}");
-                                        }
-                                    }
-                                    break;
-
-                                case 3:
-                                    string productId = Inputter.NormalStringer(
-                                        "Enter product ID: ",
-                                        "Input cannot be empty",
-                                        false
-                                    );
-
-                                    if (!string.IsNullOrWhiteSpace(productId))
-                                    {
-                                        try
-                                        {
-                                            var guid = Guid.Parse(productId); // may throw if invalid format
-                                            var product1 = productRepo.GetById(guid);
-
-                                            if (product1 != null)
-                                            {
-                                                Console.Write("Enter new name: ");
-                                                string newProductName = Console.ReadLine();
-                                                Console.Write("Enter new price: ");
-                                                decimal newProductPrice = decimal.Parse(Console.ReadLine());
-                                                Console.Write("Enter new stock: ");
-                                                int newProductStock = int.Parse(Console.ReadLine());
-
-                                                if (!string.IsNullOrWhiteSpace(newProductName) && newProductPrice >= 0 && newProductStock >= 0)
-                                                {
-                                                    product1.Name = newProductName;
-                                                    product1.Price = newProductPrice;
-                                                    product1.Stock = newProductStock;
-
-                                                    productRepo.Update(product1);
-                                                    Console.WriteLine("Product updated successfully!");
-                                                }
-                                                else
-                                                {
-                                                    Console.WriteLine("Input missing or invalid. Cancelled update!");
-                                                }
-                                            }
-                                            else
-                                            {
-                                                Console.WriteLine($"No product found with ID: {guid}");
-                                            }
-                                        }
-                                        catch (FormatException)
-                                        {
-                                            Console.WriteLine("Invalid ID format. Please enter a valid GUID.");
-                                        }
-                                        catch (Exception ex)
-                                        {
-                                            Console.WriteLine($"An unexpected error occurred: {ex.Message}");
-                                        }
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine("Must enter product ID in order to update!");
-                                    }
-
-                                    break;
-                                case 4:
-                                    Console.Write("Enter product ID: ");
-                                    string productDelId = Console.ReadLine();
-
-                                    Product product2 = productRepo.GetById(Guid.Parse(productDelId));
-
-                                    if (product2 != null)
-                                    {
-
-                                    }
-                                    break;
-                                case 0:
-                                    break;
-                                default:
-                                    Console.WriteLine("Invalid choice!!!");
-                                    break;
-                            }
-                        } while (choice > 0 && choice < 4);
+                        ManageProduct();
                         break;
                     case 2:
                         break;
@@ -180,6 +44,168 @@ namespace ViewModel
                 }
             }
             while (choice > 0 && choice < 5);
+        }
+
+        static void ManageProduct()
+        {
+            var productRepo = new ProductRepository("product.json");
+            int productChoice = 0;
+
+            do
+            {
+                Console.WriteLine("1. Add new Product");
+                Console.WriteLine("2. List all product");
+                Console.WriteLine("3. Update product");
+                Console.WriteLine("4. Delete product");
+                Console.WriteLine("0. Return to main menu");
+                Console.Write("Select choice: ");
+                productChoice = Inputter.Inter(
+                    "Select choice: ",
+                    1, 4,
+                    false
+                );
+
+                switch (productChoice)
+                {
+                    case 1:
+                        string productName = Inputter.NormalStringer(
+                            "Enter Name:",
+                            true
+                        );
+
+                        decimal productPrice = Inputter.Decimaler(
+                            "Enter Price:",
+                            decimal.MinValue, decimal.MaxValue,
+                            true
+                        );
+
+                        int productStock = Inputter.Inter(
+                            "Enter Stock: ",
+                            int.MinValue, int.MaxValue,
+                            true
+                        );
+
+                        Product product = new Product
+                        {
+                            Name = productName,
+                            Price = productPrice,
+                            Stock = productStock
+                        };
+
+                        productRepo.Add(product);
+                        break;
+
+                    case 2:
+                        if (productRepo.GetAll().ToList() == null)
+                        {
+                            Console.WriteLine("Product list is empty");
+                        }
+                        else
+                        {
+                            foreach (var item in productRepo.GetAll())
+                            {
+                                Console.WriteLine($"{item.Id} | {item.Name} | {item.Price} | {item.Stock}");
+                            }
+                        }
+                        break;
+
+                    case 3:
+                        string productId = Inputter.NormalStringer(
+                            "Enter product ID: ",
+                            false
+                        );
+
+                        try
+                        {
+                            var guid = Guid.Parse(productId); // may throw if invalid format
+                            var product1 = productRepo.GetById(guid);
+
+                            if (product1 != null)
+                            {
+                                string newProductName = Inputter.NormalStringer(
+                                    "Enter new name: ",
+                                    false
+                                );
+
+                                decimal newProductPrice = Inputter.Decimaler(
+                                    "Enter new price: ",
+                                    decimal.MinValue, decimal.MaxValue,
+                                    true
+                                );
+
+                                int newProductStock = Inputter.Inter(
+                                    "Enter new Stock: ",
+                                    int.MinValue, int.MaxValue,
+                                    true
+                                );
+
+                                if (!string.IsNullOrWhiteSpace(newProductName) && newProductPrice >= 0 && newProductStock >= 0)
+                                {
+                                    product1.Name = newProductName;
+                                    product1.Price = newProductPrice;
+                                    product1.Stock = newProductStock;
+
+                                    productRepo.Update(product1);
+                                    Console.WriteLine("Product updated successfully!");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Input missing or invalid. Cancelled update!");
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine($"No product found with ID: {guid}");
+                            }
+                        }
+                        catch (FormatException)
+                        {
+                            Console.WriteLine("Invalid ID format. Please enter a valid GUID.");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"An unexpected error occurred: {ex.Message}");
+                        }
+
+                        break;
+                    case 4:
+                        string productDelId = Inputter.NormalStringer(
+                            "Enter product ID: ",
+                            false
+                        );
+
+                        try
+                        {
+                            var guid = Guid.Parse(productDelId);
+                            var product2 = productRepo.GetById(guid);
+
+                            if (product2 != null)
+                            {
+                                productRepo.Delete(product2);
+                                Console.WriteLine("Product deleted successfully");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"No product found with ID: {guid}");
+                            }
+                        }
+                        catch (FormatException)
+                        {
+                            Console.WriteLine("Invalid ID format. Please enter a valid GUID.");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"An unexpected error occured: {ex.Message}");
+                        }
+                        break;
+
+                    case 0:
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice!!!");
+                        break;
+                }
+            } while (productChoice > 0 && productChoice < 4);
         }
     }
 }
