@@ -11,7 +11,7 @@ namespace Models
         public Guid Id { get; set; } = Guid.NewGuid();
         public string Name { get; set; }
         public Guid CustomerId { get; set; }
-        public List<int> ListOfProduct { get; set; } = new List<int>();
+        public List<OrderItem> ListOfProduct { get; set; } = new List<OrderItem>();
         public decimal TotalPrice { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
     }

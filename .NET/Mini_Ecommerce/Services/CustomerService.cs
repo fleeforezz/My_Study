@@ -46,10 +46,22 @@ namespace Services
             };
 
             _customerRepo.Add(customer);
-
+            Console.WriteLine("Customer created!!!");
         }
 
         // Get customer by id
+        public Customer GetCustomer(Guid id)
+        {
+            var customer = _customerRepo.GetById(id);
+
+            if (customer == null)
+            {
+                throw new ArgumentNullException($"Cannot find customer with id: {id}");
+            }
+
+            return customer;
+        }
+
         // Delete customer
         // Update customer
     }
