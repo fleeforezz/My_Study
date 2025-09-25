@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\viewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02E9ADD3-185E-4A7B-BB1E-4493EA103A9C}|Services\\Services.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E9ADD3-185E-4A7B-BB1E-4493EA103A9C}|Services\\Services.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\viewmodel\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\viewmodel\\utils\\inputter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\utils\\inputter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\viewmodel\\views\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\views\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBA1B8A5-DE38-4BCA-869E-093983630283}|Models\\Models.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBA1B8A5-DE38-4BCA-869E-093983630283}|Models\\Models.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBA1B8A5-DE38-4BCA-869E-093983630283}|Models\\Models.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBA1B8A5-DE38-4BCA-869E-093983630283}|Models\\Models.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02E9ADD3-185E-4A7B-BB1E-4493EA103A9C}|Services\\Services.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02E9ADD3-185E-4A7B-BB1E-4493EA103A9C}|Services\\Services.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\viewmodel\\views\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\views\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13CF717C-5E8D-4AF6-BAB3-8326916630E5}|Repositories\\Repositories.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13CF717C-5E8D-4AF6-BAB3-8326916630E5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\viewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\viewmodel\\views\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\views\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\viewmodel\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02E9ADD3-185E-4A7B-BB1E-4493EA103A9C}|Services\\Services.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02E9ADD3-185E-4A7B-BB1E-4493EA103A9C}|Services\\Services.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBA1B8A5-DE38-4BCA-869E-093983630283}|Models\\Models.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBA1B8A5-DE38-4BCA-869E-093983630283}|Models\\Models.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\viewmodel\\utils\\inputter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D04889-4EC2-4F90-B079-3B6EEC1287ED}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\utils\\inputter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13CF717C-5E8D-4AF6-BAB3-8326916630E5}|Repositories\\Repositories.csproj|e:\\cabinet\\github\\my_study\\.net\\mini_ecommerce\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13CF717C-5E8D-4AF6-BAB3-8326916630E5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,33 +82,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerView.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Views\\CustomerView.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Views\\CustomerView.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Views\\CustomerView.cs",
+              "RelativeToolTip": "ViewModel\\Views\\CustomerView.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:52:41.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "OrderView.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Views\\OrderView.cs",
               "RelativeDocumentMoniker": "ViewModel\\Views\\OrderView.cs",
               "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Views\\OrderView.cs",
               "RelativeToolTip": "ViewModel\\Views\\OrderView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwD4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T09:27:14.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ProductView.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Views\\ProductView.cs",
               "RelativeDocumentMoniker": "ViewModel\\Views\\ProductView.cs",
               "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Views\\ProductView.cs",
               "RelativeToolTip": "ViewModel\\Views\\ProductView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T09:23:53.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "Models\\OrderItem.cs",
@@ -117,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Order.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
@@ -130,20 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "OrderService.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "Services\\OrderService.cs",
               "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\OrderService.cs",
               "RelativeToolTip": "Services\\OrderService.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T04:32:05.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
@@ -151,8 +168,7 @@
               "RelativeToolTip": "Repositories\\OrderRepository.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAASwCQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T02:12:25.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T02:12:25.244Z"
             },
             {
               "$type": "Document",
@@ -162,14 +178,14 @@
               "RelativeDocumentMoniker": "Services\\CustomerService.cs",
               "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\CustomerService.cs",
               "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAApwC8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T14:00:39.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Inputter.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Utils\\Inputter.cs",
               "RelativeDocumentMoniker": "ViewModel\\Utils\\Inputter.cs",
@@ -177,18 +193,17 @@
               "RelativeToolTip": "ViewModel\\Utils\\Inputter.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAIwBEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T09:35:34.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T09:35:34.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Program.cs",
               "RelativeDocumentMoniker": "ViewModel\\Program.cs",
               "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Program.cs",
               "RelativeToolTip": "ViewModel\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T10:16:05.521Z",
               "EditorCaption": ""

@@ -18,16 +18,17 @@ namespace ViewModel
 
             do
             {
-                Console.WriteLine("======== Mini E-commerce App ========");
-                Console.WriteLine("1. Product Actions");
-                Console.WriteLine("2. Register Customers");
-                Console.WriteLine("3. Place an Order");
-                Console.WriteLine("4. Show order history for customer");
+                Console.WriteLine("\n======== Mini E-commerce App ========");
+                Console.WriteLine("1. Product Management");
+                Console.WriteLine("2. Customer Management");
+                Console.WriteLine("3. Order Management");
+                Console.WriteLine("4. Search");
+                Console.WriteLine("5. Reports");
                 Console.WriteLine("0. Exit");
                 Console.Write("Select choice: ");
                 choice = Inputter.Inter(
                     "Select choice: ",
-                    1, 4,
+                    0, 5,
                     false
                 );
 
@@ -37,13 +38,12 @@ namespace ViewModel
                         productView.ManageProduct();
                         break;
                     case 2:
-                        customerView.RegisterCustomer();
+                        customerView.ManageCustomer();
                         break;
                     case 3:
-                        orderView.PlaceAnOrder();
+                        orderView.ManageOrder();
                         break;
                     case 4:
-                        orderView.OrderHistory();
                         break;
                     case 0:
                         return;
@@ -52,7 +52,7 @@ namespace ViewModel
                         break;
                 }
             }
-            while (choice > 0 && choice < 5);
+            while (choice >= 0 && choice < 6);
         }
     }
 }
