@@ -50,7 +50,7 @@ namespace Services
         }
 
         // Get customer by id
-        public Customer GetCustomer(Guid id)
+        public Customer GetCustomerById(Guid id)
         {
             var customer = _customerRepo.GetById(id);
 

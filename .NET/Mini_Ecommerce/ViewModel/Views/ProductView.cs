@@ -108,9 +108,34 @@ namespace ViewModel.Views
                 return;
             }
 
-            string newProductName = Inputter.NormalStringer("Enter new name: ", true);
-            decimal newProductPrice = Inputter.Decimaler("Enter new price: ", 0, decimal.MaxValue, true);
-            int newProductStock = Inputter.Inter("Enter new stock: ", 0, int.MaxValue, true);
+            string newProductName = Inputter.NormalStringer(
+                "Enter new name: ", 
+                true
+            );
+            if (newProductName == null)
+            {
+                product.Name = product.Name;
+            }
+
+            decimal newProductPrice = Inputter.Decimaler(
+                "Enter new price: ", 
+                0, decimal.MaxValue, 
+                true
+            );
+            if (newProductPrice == 0)
+            {
+                product.Price = product.Price;
+            }
+
+            int newProductStock = Inputter.Inter(
+                "Enter new stock: ", 
+                0, int.MaxValue, 
+                true
+            );
+            if (newProductStock == 0)
+            {
+                product.Stock = product.Stock;
+            }
 
             try
             {

@@ -1,20 +1,20 @@
 [
   {
-    "Id": "a78024f3-a16a-48d8-a4d1-0acd51ceb598",
+    "Id": "778b56fb-fe31-4895-ae28-560878bbce88",
     "Name": "Nike SP Dunk",
-    "Price": 123,
-    "Stock": 12
+    "Price": 100,
+    "Stock": 99999
   },
   {
-    "Id": "594870b0-8f12-4b6a-ae60-cbddb9e630f2",
-    "Name": "Gucci Watch",
-    "Price": 10000,
-    "Stock": 1
-  },
-  {
-    "Id": "1c77b771-930b-4bdf-bd08-d17d61850592",
+    "Id": "cb15d85c-ca2a-4729-b729-7fd817dc2c94",
     "Name": "Iphone 17 Pro",
-    "Price": 123323,
-    "Stock": 123
+    "Price": 1000,
+    "Stock": 99999
+  },
+  {
+    "Id": "eec2aae2-2e36-48be-ae7b-9feec774e99f",
+    "Name": "",
+    "Price": 0,
+    "Stock": 600
   }
 ]

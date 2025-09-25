@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "a8ce40bb-f35f-4a80-a335-64f6cc253902",
+    "Name": null,
+    "CustomerId": "9424ed12-94eb-406d-8078-bf66939fd132",
+    "ListOfProduct": [
+      {
+        "ProductId": "cb15d85c-ca2a-4729-b729-7fd817dc2c94",
+        "Quantity": 1,
+        "Price": 1000,
+        "SubTotal": 1000
+      }
+    ],
+    "TotalPrice": 0,
+    "CreatedAt": "2025-09-25T22:19:08.248493+07:00"
+  },
+  {
+    "Id": "d8618abc-aa91-49a8-951d-3e19c722e39d",
+    "Name": null,
+    "CustomerId": "9424ed12-94eb-406d-8078-bf66939fd132",
+    "ListOfProduct": [
+      {
+        "ProductId": "778b56fb-fe31-4895-ae28-560878bbce88",
+        "Quantity": 1,
+        "Price": 100,
+        "SubTotal": 100
+      }
+    ],
+    "TotalPrice": 0,
+    "CreatedAt": "2025-09-25T22:22:33.2172209+07:00"
+  }
+]

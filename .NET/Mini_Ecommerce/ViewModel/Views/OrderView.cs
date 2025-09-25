@@ -14,7 +14,7 @@ namespace ViewModel.Views
         public void ManageOrder()
         {
             var orderService = new OrderService(
-                new OrderRepository("customer.json"),
+                new OrderRepository("order.json"),
                 new CustomerRepository("customer.json"),
                 new ProductRepository("product.json")
             );
@@ -81,16 +81,45 @@ namespace ViewModel.Views
         // Order History
         public void OrderHistory(OrderService orderService)
         {
+            var customerService = new CustomerService(new CustomerRepository("customer.json"));
+            var productService = new ProductService(new ProductRepository("product.json"));
+
             string customerId = Inputter.NormalStringer(
                 "Enter customer ID: ",
                 false
             );
 
-            var orders = orderService.GetOrdersByCustomer(Guid.Parse(customerId));
-
-            foreach (var order in orders)
+            if (!Guid.TryParse(customerId, out var parsedProductId))
             {
-                Console.WriteLine($"{order.Id}");
+                Console.WriteLine("Invalid customer ID format!!!");
+            }
+
+            try
+            {
+                var orders = orderService.GetOrdersByCustomer(Guid.Parse(customerId));
+
+                Console.WriteLine("\nOrder History");
+                foreach (var order in orders)
+                {
+                    Console.WriteLine("\n============================================================");
+                    Console.WriteLine($"Order ID:       {order.Id}");
+                    Console.WriteLine($"Customer ID:    {order.CustomerId}");
+                    Console.WriteLine($"Customer Name:  {customerService.GetCustomerById(order.CustomerId).Name}");
+                    Console.WriteLine($"Created At:     {order.CreatedAt}");
+                    foreach (var orderItem in order.ListOfProduct)
+                    {
+                        //Console.WriteLine($"{orderItem.ProductId} | {orderItem.Price} | {orderItem.Quantity}");
+                        Console.WriteLine($"    + Product ID:           {orderItem.ProductId}");
+                        Console.WriteLine($"    + Product Name:         {productService.GetProductById(orderItem.ProductId).Name}");
+                        Console.WriteLine($"    + Product Price:        {orderItem.Price}");
+                        Console.WriteLine($"    + Product Quantity:     {orderItem.Quantity}");
+                    }
+                }
+            }
+            catch (ArgumentNullException ex)
+            {
+                Console.WriteLine("There are no order in the history!!!");
+                Console.WriteLine(ex.Message);
             }
         }
     }
