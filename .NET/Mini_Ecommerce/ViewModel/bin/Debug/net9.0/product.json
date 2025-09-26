@@ -7,14 +7,14 @@
   },
   {
     "Id": "cb15d85c-ca2a-4729-b729-7fd817dc2c94",
-    "Name": "Iphone 17 Pro",
-    "Price": 1000,
-    "Stock": 99999
+    "Name": "",
+    "Price": 2500,
+    "Stock": 9999
   },
   {
     "Id": "eec2aae2-2e36-48be-ae7b-9feec774e99f",
-    "Name": "",
-    "Price": 0,
-    "Stock": 600
+    "Name": "Iphone 17 Pro",
+    "Price": 1000,
+    "Stock": 9999
   }
 ]

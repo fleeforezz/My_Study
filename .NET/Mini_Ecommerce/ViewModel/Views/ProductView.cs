@@ -114,7 +114,7 @@ namespace ViewModel.Views
             );
             if (newProductName == null)
             {
-                product.Name = product.Name;
+                newProductName = product.Name;
             }
 
             decimal newProductPrice = Inputter.Decimaler(
@@ -124,7 +124,7 @@ namespace ViewModel.Views
             );
             if (newProductPrice == 0)
             {
-                product.Price = product.Price;
+                newProductPrice = product.Price;
             }
 
             int newProductStock = Inputter.Inter(
@@ -134,7 +134,7 @@ namespace ViewModel.Views
             );
             if (newProductStock == 0)
             {
-                product.Stock = product.Stock;
+                newProductStock = product.Stock;
             }
 
             try
