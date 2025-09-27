@@ -126,7 +126,7 @@
               "RelativeDocumentMoniker": "ViewModel\\Views\\SearchView.cs",
               "ToolTip": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\Views\\SearchView.cs",
               "RelativeToolTip": "ViewModel\\Views\\SearchView.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwD4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwEEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T02:50:18.016Z",
               "EditorCaption": ""
@@ -141,8 +141,7 @@
               "RelativeToolTip": "ViewModel\\Views\\CustomerView.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:52:41.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T09:52:41.206Z"
             },
             {
               "$type": "Document",
@@ -154,8 +153,7 @@
               "RelativeToolTip": "ViewModel\\Views\\OrderView.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAwwGYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:27:14.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T09:27:14.622Z"
             },
             {
               "$type": "Document",
@@ -167,8 +165,7 @@
               "RelativeToolTip": "ViewModel\\Views\\ProductView.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAowFcAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:23:53.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T09:23:53.806Z"
             },
             {
               "$type": "Document",
@@ -180,8 +177,7 @@
               "RelativeToolTip": "Models\\OrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:35:26.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T08:35:26.7Z"
             },
             {
               "$type": "Document",
@@ -193,8 +189,7 @@
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:27:07.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T08:27:07.501Z"
             },
             {
               "$type": "Document",
@@ -206,8 +201,7 @@
               "RelativeToolTip": "Services\\ProductService.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAIwEEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T02:05:25.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T02:05:25.168Z"
             },
             {
               "$type": "Document",
@@ -219,8 +213,7 @@
               "RelativeToolTip": "Services\\OrderService.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowCsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T04:32:05.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T04:32:05.343Z"
             },
             {
               "$type": "Document",
@@ -232,8 +225,7 @@
               "RelativeToolTip": "Services\\CustomerService.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwDAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T14:00:39.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T14:00:39.258Z"
             },
             {
               "$type": "Document",
@@ -257,8 +249,7 @@
               "RelativeToolTip": "Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAwwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T02:06:01.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T02:06:01.451Z"
             },
             {
               "$type": "Document",
@@ -282,8 +273,7 @@
               "RelativeToolTip": "ViewModel\\Program.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwC8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T10:16:05.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-20T10:16:05.521Z"
             },
             {
               "$type": "Document",
@@ -295,8 +285,7 @@
               "RelativeToolTip": "ViewModel\\bin\\Debug\\net9.0\\product.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-25T15:05:26.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T15:05:26.28Z"
             },
             {
               "$type": "Document",
@@ -308,8 +297,7 @@
               "RelativeToolTip": "ViewModel\\bin\\Debug\\net9.0\\order.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-25T15:05:19.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T15:05:19.767Z"
             },
             {
               "$type": "Document",
@@ -321,8 +309,7 @@
               "RelativeToolTip": "ViewModel\\bin\\Debug\\net9.0\\customer.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-25T15:05:15.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T15:05:15.337Z"
             }
           ]
         },
