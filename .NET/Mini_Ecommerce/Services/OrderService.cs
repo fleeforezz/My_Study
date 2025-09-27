@@ -50,7 +50,7 @@ namespace Services
             }
 
             _orderRepo.Add(order);
-            Console.WriteLine($"Order placed successfully for {customer.Name}. Total: {order.TotalPrice:C}");
+            Console.WriteLine($"Order placed successfully for {customer.Name}. Total: {order.TotalPrice}");
         }
 
         // Get order by customer 

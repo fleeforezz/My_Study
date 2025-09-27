@@ -37,10 +37,24 @@ namespace Repositories
             return _db.Load();
         }
 
+        public IEnumerable<Product> GetByName(string keyword)
+        {
+            return _db.Load()
+                .Where(p => p.Name.Contains(keyword, StringComparison.CurrentCultureIgnoreCase))
+                .ToList();
+        }
+
+        public IEnumerable<Product> GetByPriceRange(decimal minPrice, decimal maxPrice)
+        {
+            return _db.Load()
+                .Where(p => p.Price >= minPrice && p.Price <= maxPrice)
+                .ToList();
+        }
+
         public Product GetById(Guid id)
         {
-            return _db.Load().FirstOrDefault(p => p.Id == id);
-
+            return _db.Load()
+                .FirstOrDefault(p => p.Id == id);
         }
 
         public void Update(Product product)

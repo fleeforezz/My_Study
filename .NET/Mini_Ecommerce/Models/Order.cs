@@ -12,7 +12,7 @@ namespace Models
         public string Name { get; set; }
         public Guid CustomerId { get; set; }
         public List<OrderItem> ListOfProduct { get; set; } = new List<OrderItem>();
-        public decimal TotalPrice { get; set; }
+        public decimal TotalPrice => ListOfProduct.Sum(i => i.SubTotal);
         public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

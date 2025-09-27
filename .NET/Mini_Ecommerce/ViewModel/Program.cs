@@ -13,6 +13,7 @@ namespace ViewModel
             ProductView productView = new ProductView();
             CustomerView customerView = new CustomerView();
             OrderView orderView = new OrderView();
+            SearchView searchView = new SearchView();
 
             int choice = 0;
 
@@ -44,6 +45,7 @@ namespace ViewModel
                         orderView.ManageOrder();
                         break;
                     case 4:
+                        searchView.SearchProduct();
                         break;
                     case 0:
                         return;

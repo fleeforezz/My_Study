@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Services
 {
@@ -17,7 +18,7 @@ namespace Services
             _productRepo = repo;
         }
 
-        // Get all product service
+        // Get all product
         public IEnumerable<Product> GetAllProduct()
         {
             var products = _productRepo.GetAll();
@@ -31,13 +32,41 @@ namespace Services
             return products;
         }
 
-        // Get product by id service
+        // Get product by id
         public Product GetProductById(Guid id)
         {
             return _productRepo.GetById(id);
         }
 
-        // Add product service
+        // Get product by name
+        public IEnumerable<Product> GetAllProductByName(string name)
+        {
+            var products = _productRepo.GetByName(name);
+
+            if (products == null)
+            {
+                Console.WriteLine($"Cannot find any product for: {name}");
+                return Enumerable.Empty<Product>();
+            }
+
+            return products;
+        }
+
+        // Get product by price range
+        public IEnumerable<Product> GetAllProductByPriceRange(decimal minPrice, decimal maxPrice)
+        {
+            var products = _productRepo.GetByPriceRange(minPrice, maxPrice);
+
+            if (products == null)
+            {
+                Console.WriteLine($"Cannot find any product in range: {minPrice}-{maxPrice}");
+                return Enumerable.Empty<Product>();
+            }
+
+            return products;
+        }
+
+        // Add product
         public void AddProduct(string name, decimal price, int stock)
         {
             if (string.IsNullOrEmpty(name) || price < 0 || stock < 0)
@@ -55,7 +84,7 @@ namespace Services
             _productRepo.Add(product);
         }
 
-        // Update product service
+        // Update product
         public void UpdateProduct(Guid id, string name, decimal price, int stock)
         {
             var product = _productRepo.GetById(id);
@@ -79,7 +108,7 @@ namespace Services
             }
         }
 
-        // Delete product service
+        // Delete product
         public void DeleteProduct(Guid id)
         {
             _productRepo.Delete(id);

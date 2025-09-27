@@ -111,7 +111,7 @@ namespace ViewModel.Views
                         //Console.WriteLine($"{orderItem.ProductId} | {orderItem.Price} | {orderItem.Quantity}");
                         Console.WriteLine($"    + Product ID:           {orderItem.ProductId}");
                         Console.WriteLine($"    + Product Name:         {productService.GetProductById(orderItem.ProductId).Name}");
-                        Console.WriteLine($"    + Product Price:        {orderItem.Price}");
+                        Console.WriteLine($"    + Product Price:        {orderItem.Price:C}");
                         Console.WriteLine($"    + Product Quantity:     {orderItem.Quantity}");
                     }
                 }
