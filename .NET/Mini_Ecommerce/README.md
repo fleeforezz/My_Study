@@ -113,3 +113,78 @@ ECommerceApp/
 │
 └── Program.cs
 ```
+
+## Level 4
+You’re moving from a simple 3-layer structure to Domain-Driven Design (DDD). That means instead of just Models, Repositories, and Services, you’ll start thinking in terms of Domain, Application, Infrastructure, and UI layers.
+
+Here’s how you can restructure your mini e-commerce project to align with DDD principles:
+```
+ECommerceApp/
+│
+├── Domain/                      # Core business logic (Entities, Value Objects, Aggregates, Interfaces)
+│   ├── Entities/
+│   │   ├── Product.cs
+│   │   ├── Customer.cs
+│   │   ├── Order.cs
+│   │   └── OrderItem.cs
+│   │
+│   ├── ValueObjects/
+│   │   ├── Address.cs
+│   │   └── Money.cs
+│   │
+│   ├── Interfaces/
+│   │   ├── IProductRepository.cs
+│   │   ├── ICustomerRepository.cs
+│   │   └── IOrderRepository.cs
+│   │
+│   └── Services/
+│       └── DomainOrderService.cs   # Domain logic (e.g., calculating totals, order rules)
+│
+├── Application/                  # Use cases (business workflows)
+│   ├── DTOs/
+│   │   ├── OrderDto.cs
+│   │   └── ProductDto.cs
+│   │
+│   ├── Interfaces/
+│   │   └── IOrderService.cs
+│   │
+│   └── Services/
+│       ├── ProductService.cs      # Uses repos + domain logic
+│       ├── CustomerService.cs
+│       └── OrderService.cs
+│
+├── Infrastructure/                # Implementation details (DB, APIs, File system, External services)
+│   ├── Persistence/
+│   │   ├── FileDatabase.cs
+│   │   ├── ProductRepository.cs
+│   │   ├── CustomerRepository.cs
+│   │   └── OrderRepository.cs
+│   │
+│   └── Mappers/
+│       └── DtoMappers.cs
+│
+├── UI/                            # Presentation layer (Console, Web, API, etc.)
+│   └── Program.cs
+│
+└── Tests/                         # Unit + Integration tests
+    ├── DomainTests/
+    ├── ApplicationTests/
+    └── InfrastructureTests/
+```
+
+### 🧩 Key Differences from Old Structure
+1. Domain Layer
+    + Pure business rules.
+    + No dependencies on infrastructure (no JSON, DB, or file I/O code).
+    + Entities (Product, Order), Value Objects (Money, Address), and Domain Services (order validation, pricing rules).
+2. Application Layer
+    + Orchestrates use cases.
+    + Uses repositories (via interfaces) + domain services.
+    + Returns DTOs to the UI.
+3. Infrastructure Layer
+    + Implements repository interfaces (e.g., JSON, SQL, API).
+    + Handles persistence (your current FileDatabase).
+4. UI Layer
+    + Console, Web, or Desktop.
+    + Talks only to Application layer.
+    + No business logic here.
