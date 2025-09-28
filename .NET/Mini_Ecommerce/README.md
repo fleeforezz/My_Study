@@ -190,3 +190,96 @@ ECommerceApp/
     + No business logic here.
 
 ✅ This structure makes your mini e-commerce app much more modular, scalable, and testable. You can swap JSON persistence for SQL or an API later without touching the Domain or Application layers.
+
+## Level 5
+Let’s level-up your entities and overall DDD practice by expanding them with richer domain behaviors, repository contracts, and console features.
+
+Here’s a complete roadmap you can implement and practice:
+
+### 🛒 Level-Up Features
+#### 1. Entities & Relationships
+Your current entities are a solid start. Let’s enrich them with domain behaviors, invariants, and value objects.
++ Product
+    + Id, Name, Price, StockQuantity
+    + Behaviors: ChangePrice(), IncreaseStock(), DecreaseStock()
+    + Rule: Stock cannot go negative, Price must be > 0.
+
++ Customer
+    + Id, Name, Email, Address (could be a ValueObject)
+    + Behaviors: UpdateAddress(), ChangeEmail() (validate format), PlaceOrder() (delegates to Order aggregate).
++ Order (Aggregate Root)
+    + Id, CustomerId, Date, List<OrderItem>, TotalAmount
+    + Behaviors: AddItem(), RemoveItem(), CalculateTotal(), ConfirmOrder()
+    + Rule: Cannot confirm empty order, Order date auto-set, Total calculated not set manually.
+
++ OrderItem
+    + ProductId, Quantity, PriceAtPurchase (snapshot of Product.Price when ordered)
+    + Rule: Quantity must be ≥ 1.
+
++ Value Objects
+    + Address (Street, City, Country, ZipCode)
+    + Money (Amount, Currency) → ensures precision for money handling.
+
+**Relationships:**
++ Customer → Order (1-to-many).
++ Order → OrderItems (1-to-many).
++ OrderItem → Product (reference by ProductId).
+
+#### 2. Repository Expansion
+
+Repositories expose aggregate roots (DDD principle).
+
+IRepository<T> stays generic, but we define richer contracts:
+
++ ProductRepository
+    + Task AddAsync(Product product)
+    + Task<Product?> GetByIdAsync(Guid id)
+    + Task<IEnumerable<Product>> GetAllAsync()
+    + Task<IEnumerable<Product>> FindByNameAsync(string keyword)
+    + Task<IEnumerable<Product>> FindByPriceRangeAsync(decimal min, decimal max)
+
++ CustomerRepository
+    + Task AddAsync(Customer customer)
+    + Task<Customer?> GetByIdAsync(Guid id)
+    + Task<IEnumerable<Customer>> GetAllAsync()
+    + Task<Customer?> FindByEmailAsync(string email)
+
++ OrderRepository
+    + Task AddAsync(Order order)
+    + Task<Order?> GetByIdAsync(Guid id)
+    + Task<IEnumerable<Order>> GetByCustomerAsync(Guid customerId)
+    + Task<IEnumerable<Order>> GetAllAsync()
+
+#### 3. Features for the Console App
+Now let’s map those DDD-rich entities into use cases:
+
+**🔹 Product Management**
++ Add a product (with validation for name, price, stock).
++ Update product details (price, stock).
++ Delete product.
++ List all products.
++ Search products by name or price range.
+
+**🔹 Customer Management**
++ Register a new customer.
++ View all customers.
++ Find customer by email.
++ Update address or email.
+
+**🔹 Order Management**
++ Place an order (choose a customer, add multiple products with quantities).
++ Show a customer’s order history.
++ Calculate order totals automatically.
++ Prevent invalid orders (e.g., no items, insufficient stock).
+
+**🔹 Reports**
++ Total revenue (sum of all order totals).
++ Best-selling products (aggregate quantity ordered).
++ Top customers (highest total spend).
+
+✅ With this leveled-up DDD structure, you’ll practice:
++ Entities with real behaviors.
++ Aggregates (Order as root).
++ Value Objects for correctness.
++ Repositories with rich queries.
++ Application layer use cases that orchestrate the flow.
