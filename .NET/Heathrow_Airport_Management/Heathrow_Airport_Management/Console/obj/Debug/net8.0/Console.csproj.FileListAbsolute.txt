@@ -1,5 +1,0 @@
-D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Console\obj\Debug\net8.0\Console.GeneratedMSBuildEditorConfig.editorconfig
-D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Console\obj\Debug\net8.0\Console.AssemblyInfoInputs.cache
-D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Console\obj\Debug\net8.0\Console.AssemblyInfo.cs
-D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Console\obj\Debug\net8.0\Console.csproj.CoreCompileInputs.cache
-D:\Stuff\Github\My_Study\.NET\Heathrow_Airport_Management\Heathrow_Airport_Management\Console\obj\Debug\net8.0\Console.sourcelink.json
