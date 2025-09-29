@@ -1,0 +1,12 @@
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

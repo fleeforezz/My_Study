@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ViewModel.Utils
+namespace UI.Utils
 {
     public class Inputter
     {

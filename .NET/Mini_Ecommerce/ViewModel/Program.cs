@@ -1,10 +1,10 @@
 ﻿using Models;
 using Repositories;
 using Services;
-using ViewModel.Utils;
-using ViewModel.Views;
+using UI.Utils;
+using UI.Views;
 
-namespace ViewModel
+namespace UI
 {
     public class Program
     {

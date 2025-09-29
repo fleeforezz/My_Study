@@ -12,6 +12,16 @@
           "bin/placeholder/Data.dll": {}
         }
       },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
+      },
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -30,6 +40,11 @@
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
     },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -39,27 +54,28 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Data >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hikari\\.nuget\\packages\\": {},
+    "C:\\Users\\jso\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
-      "packagesPath": "C:\\Users\\Hikari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\obj\\",
+      "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
+      "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
+      "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hikari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -68,18 +84,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj"
+            "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj": {
+              "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj"
             },
-            "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj"
+            "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Infrastructure\\Infrastructure.csproj"
+            },
+            "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj": {
+              "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Models\\Models.csproj"
             }
           }
         }

@@ -1,0 +1,12 @@
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\bin\Debug\net8.0\Application.deps.json
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\bin\Debug\net8.0\Application.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\bin\Debug\net8.0\Application.pdb
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Application.sourcelink.json
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Application.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\refint\Application.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Application.pdb
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\ref\Application.dll

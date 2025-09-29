@@ -22,6 +22,14 @@
           }
         }
       },
+      "Infrastructure/1.0.0": {
+        "runtime": {
+          "Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Models/1.0.0": {
         "runtime": {
           "Models.dll": {
@@ -33,6 +41,7 @@
       "Repositories/1.0.0": {
         "dependencies": {
           "Data": "1.0.0",
+          "Infrastructure": "1.0.0",
           "Models": "1.0.0"
         },
         "runtime": {
@@ -51,6 +60,11 @@
       "sha512": ""
     },
     "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

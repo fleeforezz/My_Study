@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ViewModel.Validate
+namespace UI.Validate
 {
     internal class Regex
     {
