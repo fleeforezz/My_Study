@@ -10,3 +10,7 @@ E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\I
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\bin\Debug\net8.0\Domain.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\bin\Debug\net8.0\Domain.pdb
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date

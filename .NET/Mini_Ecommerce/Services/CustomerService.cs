@@ -1,4 +1,4 @@
-﻿using Models;
+﻿using Domain.Entities;
 using Repositories;
 using System;
 using System.Collections.Generic;
@@ -10,59 +10,59 @@ namespace Services
 {
     public class CustomerService
     {
-        private CustomerRepository _customerRepo;
+        //private CustomerRepository _customerRepo;
 
-        public CustomerService(CustomerRepository repo)
-        {
-            _customerRepo = repo;
-        }
+        //public CustomerService(CustomerRepository repo)
+        //{
+        //    _customerRepo = repo;
+        //}
 
-        // Get all customer service
-        public IEnumerable<Customer> GetAllCustomer()
-        {
-            var customers = _customerRepo.GetAll();
+        //// Get all customer service
+        //public IEnumerable<Customer> GetAllCustomer()
+        //{
+        //    var customers = _customerRepo.GetAll();
 
-            if (customers == null)
-            {
-                Console.WriteLine("Customer list is empty!!!");
-                return Enumerable.Empty<Customer>();
-            }
+        //    if (customers == null)
+        //    {
+        //        Console.WriteLine("Customer list is empty!!!");
+        //        return Enumerable.Empty<Customer>();
+        //    }
 
-            return customers;
-        }
+        //    return customers;
+        //}
 
-        // Add new customer service
-        public void AddCustomer(string name, string email)
-        {
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email))
-            {
-                throw new ArgumentException("Invalid customer data!!!");
-            }
+        //// Add new customer service
+        //public void AddCustomer(string name, string email)
+        //{
+        //    if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email))
+        //    {
+        //        throw new ArgumentException("Invalid customer data!!!");
+        //    }
 
-            Customer customer = new Customer
-            {
-                Name = name,
-                Email = email
-            };
+        //    Customer customer = new Customer
+        //    {
+        //        Name = name,
+        //        Email = email
+        //    };
 
-            _customerRepo.Add(customer);
-            Console.WriteLine("Customer created!!!");
-        }
+        //    _customerRepo.Add(customer);
+        //    Console.WriteLine("Customer created!!!");
+        //}
 
-        // Get customer by id
-        public Customer GetCustomerById(Guid id)
-        {
-            var customer = _customerRepo.GetById(id);
+        //// Get customer by id
+        //public Customer GetCustomerById(Guid id)
+        //{
+        //    var customer = _customerRepo.GetById(id);
 
-            if (customer == null)
-            {
-                throw new ArgumentNullException($"Cannot find customer with id: {id}");
-            }
+        //    if (customer == null)
+        //    {
+        //        throw new ArgumentNullException($"Cannot find customer with id: {id}");
+        //    }
 
-            return customer;
-        }
+        //    return customer;
+        //}
 
-        // Delete customer
-        // Update customer
+        //// Delete customer
+        //// Update customer
     }
 }

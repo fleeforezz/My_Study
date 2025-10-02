@@ -41,14 +41,10 @@ C:\Users\Hikari\Downloads\Github\My_Study\.NET\Mini_Ecommerce\Services\obj\Debug
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Services.deps.json
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Services.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Services.pdb
-E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Data.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Infrastructure.dll
-E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Models.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Repositories.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Repositories.pdb
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Infrastructure.pdb
-E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Models.pdb
-E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Data.pdb
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\obj\Debug\net9.0\Services.csproj.AssemblyReference.cache
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\obj\Debug\net9.0\Services.GeneratedMSBuildEditorConfig.editorconfig
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\obj\Debug\net9.0\Services.AssemblyInfoInputs.cache
@@ -60,3 +56,5 @@ E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\obj\Debug\net9.0\Service
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\obj\Debug\net9.0\refint\Services.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\obj\Debug\net9.0\Services.pdb
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\obj\Debug\net9.0\ref\Services.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Domain.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Services\bin\Debug\net9.0\Domain.pdb

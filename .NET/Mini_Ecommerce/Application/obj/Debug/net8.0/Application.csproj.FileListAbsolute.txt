@@ -10,3 +10,7 @@ E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Appl
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\refint\Application.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Application.pdb
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\ref\Application.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\bin\Debug\net8.0\Domain.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\bin\Debug\net8.0\Domain.pdb
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date

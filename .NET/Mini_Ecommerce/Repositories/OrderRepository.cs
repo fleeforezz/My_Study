@@ -1,5 +1,5 @@
-﻿using Infrastructure.Persistence;
-using Models;
+﻿using Domain.Entities;
+using Infrastructure.Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
