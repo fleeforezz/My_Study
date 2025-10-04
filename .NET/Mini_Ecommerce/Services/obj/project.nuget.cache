@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "dOOPoCK/nzo=",
-  "success": true,
-  "projectFilePath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj",
+  "dgSpecHash": "cSkKAGhZoBk=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj",
+      "filePath": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj",
+      "libraryId": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

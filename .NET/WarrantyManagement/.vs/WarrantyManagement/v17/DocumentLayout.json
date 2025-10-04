@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EABE04A4-83D2-4C48-9708-5D375F0202C8}|WarrantyManagement.API\\WarrantyManagement.API.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EABE04A4-83D2-4C48-9708-5D375F0202C8}|WarrantyManagement.API\\WarrantyManagement.API.csproj|solutionrelative:warrantymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB0AD13-F7F8-43EF-83DF-859AAA28463A}|WarrantyManagement.BAL\\WarrantyManagement.BLL.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.bal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB0AD13-F7F8-43EF-83DF-859AAA28463A}|WarrantyManagement.BAL\\WarrantyManagement.BLL.csproj|solutionrelative:warrantymanagement.bal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EABE04A4-83D2-4C48-9708-5D375F0202C8}|WarrantyManagement.API\\WarrantyManagement.API.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EABE04A4-83D2-4C48-9708-5D375F0202C8}|WarrantyManagement.API\\WarrantyManagement.API.csproj|solutionrelative:warrantymanagement.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB0AD13-F7F8-43EF-83DF-859AAA28463A}|WarrantyManagement.BAL\\WarrantyManagement.BLL.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.bal\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB0AD13-F7F8-43EF-83DF-859AAA28463A}|WarrantyManagement.BAL\\WarrantyManagement.BLL.csproj|solutionrelative:warrantymanagement.bal\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.dal\\repositoties\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|solutionrelative:warrantymanagement.dal\\repositoties\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.dal\\repositoties\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|solutionrelative:warrantymanagement.dal\\repositoties\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.dal\\repositoties\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|solutionrelative:warrantymanagement.dal\\repositoties\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EABE04A4-83D2-4C48-9708-5D375F0202C8}|WarrantyManagement.API\\WarrantyManagement.API.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EABE04A4-83D2-4C48-9708-5D375F0202C8}|WarrantyManagement.API\\WarrantyManagement.API.csproj|solutionrelative:warrantymanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.dal\\entities\\warrantydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|solutionrelative:warrantymanagement.dal\\entities\\warrantydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|c:\\users\\hikari\\downloads\\github\\my_study\\.net\\warrantymanagement\\warrantymanagement.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67E93AEC-7DD1-48E1-A144-F662EC556C77}|WarrantyManagement.DAL\\WarrantyManagement.DAL.csproj|solutionrelative:warrantymanagement.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 62,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WarrantyManagement.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WarrantyManagement.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:59:54.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.BAL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "WarrantyManagement.BAL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.BAL\\Services\\UserService.cs",
+              "RelativeToolTip": "WarrantyManagement.BAL\\Services\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:56:53.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.BAL\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "WarrantyManagement.BAL\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.BAL\\Services\\IUserService.cs",
+              "RelativeToolTip": "WarrantyManagement.BAL\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:55:36.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "WarrantyManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.API\\Program.cs",
+              "RelativeToolTip": "WarrantyManagement.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:50:34.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "WarrantyManagement.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.API\\appsettings.json",
+              "RelativeToolTip": "WarrantyManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-04T08:50:30.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Repositoties\\UserRepository.cs",
+              "RelativeDocumentMoniker": "WarrantyManagement.DAL\\Repositoties\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Repositoties\\UserRepository.cs",
+              "RelativeToolTip": "WarrantyManagement.DAL\\Repositoties\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:42:13.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Repositoties\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "WarrantyManagement.DAL\\Repositoties\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Repositoties\\IUserRepository.cs",
+              "RelativeToolTip": "WarrantyManagement.DAL\\Repositoties\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:39:05.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Repositoties\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "WarrantyManagement.DAL\\Repositoties\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Repositoties\\IGenericRepository.cs",
+              "RelativeToolTip": "WarrantyManagement.DAL\\Repositoties\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:30:18.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WarrantyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Entities\\WarrantyDbContext.cs",
+              "RelativeDocumentMoniker": "WarrantyManagement.DAL\\Entities\\WarrantyDbContext.cs",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Entities\\WarrantyDbContext.cs",
+              "RelativeToolTip": "WarrantyManagement.DAL\\Entities\\WarrantyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:24:54.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "WarrantyManagement.DAL\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Hikari\\Downloads\\Github\\My_Study\\.NET\\WarrantyManagement\\WarrantyManagement.DAL\\Entities\\User.cs",
+              "RelativeToolTip": "WarrantyManagement.DAL\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T08:23:48.173Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 338,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
