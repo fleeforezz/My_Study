@@ -166,6 +166,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj": {
+                "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj"
+              },
               "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj"
               },

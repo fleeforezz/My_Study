@@ -115,9 +115,12 @@ ECommerceApp/
 ```
 
 ## Level 4
-You’re moving from a simple 3-layer structure to Domain-Driven Design (DDD). That means instead of just Models, Repositories, and Services, you’ll start thinking in terms of Domain, Application, Infrastructure, and UI layers.
+You’re moving from a simple 3-layer structure to Domain-Driven Design (DDD). That means instead of just Models, Repositories, and Services, you’ll start thinking in terms of Domain, Application, Infrastructure, and UI layers which is called **Clean Architecture**.
 
-Here’s how you can restructure your mini e-commerce project to align with DDD principles:
+### 🤔 What is Clean Architechture
+
+
+Here’s how you can restructure your mini e-commerce project to align with DDD principles and Clean Architecture:
 ```
 ECommerceApp/
 │
@@ -180,7 +183,6 @@ A[UI Layer: ConsoleApp / ProductMenu.cs] -->|calls| B[Application Layer: Product
 B -->|uses| C[Domain Layer: Entities, Repositories Interface, Domain Rules]
 C -->|implemented by| D[Infrastructure Layer: FileDatabase, ProductRepository]
 D -->|persists/loads| E[(JSON File Storage: products.json)]
-
 ```
 
 ### 🧩 Key Differences from Old Structure
