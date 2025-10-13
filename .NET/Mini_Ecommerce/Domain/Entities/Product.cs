@@ -43,9 +43,6 @@ namespace Domain.Entities
 
         public void UpdateDetails(string name, decimal price, int stock)
         {
-            if (string.IsNullOrWhiteSpace(name))
-                throw new ArgumentException("Product name is required!!!");
-
             if (price < 0)
                 throw new ArgumentException("Price must be greater than zero!!!");
 
