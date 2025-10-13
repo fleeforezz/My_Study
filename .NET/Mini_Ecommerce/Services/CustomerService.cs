@@ -1,5 +1,4 @@
-﻿using Domain.Entities;
-using Repositories;
+﻿using Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

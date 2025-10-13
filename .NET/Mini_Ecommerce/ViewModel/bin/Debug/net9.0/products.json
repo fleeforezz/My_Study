@@ -1,8 +1,14 @@
 [
   {
     "Id": "21842d8a-4776-4025-8ac9-1483339eb17e",
-    "Name": "Test",
-    "Price": 9999,
-    "Stock": 12
+    "Name": "Nike SP Dunk",
+    "Price": 400,
+    "StockQuantity": 12
+  },
+  {
+    "Id": "a8c7ddd8-9543-48a2-8af0-c3975847b978",
+    "Name": "RTX5090",
+    "Price": 1000,
+    "StockQuantity": 12
   }
 ]

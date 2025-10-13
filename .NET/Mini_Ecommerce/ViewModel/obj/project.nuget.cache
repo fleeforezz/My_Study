@@ -1,20 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pys4W1rXccA=",
-  "success": false,
+  "dgSpecHash": "SeYUZ6gvrnM=",
+  "success": true,
   "projectFilePath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\UI.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\UI.csproj",
-      "filePath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\UI.csproj",
-      "libraryId": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Data\\Data.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

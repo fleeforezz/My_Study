@@ -12,5 +12,7 @@ namespace Domain.Interfaces
         Task AddAsync(Product product);
         Task<Product?> GetByIdAsync(Guid id);
         Task<IEnumerable<Product>> GetAllAsync();
+        Task<Product?> UpdateAsync(Guid id, Product product);
+        Task DeleteAsync(Guid id);
     }
 }

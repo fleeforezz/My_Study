@@ -10,3 +10,15 @@ E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\Domain.dl
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\refint\Domain.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\Domain.pdb
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\bin\Debug\net8.0\Domain.dll
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\Domain.dll
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Domain\obj\Debug\net8.0\ref\Domain.dll

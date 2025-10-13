@@ -49,11 +49,6 @@
         }
       },
       "Repositories/1.0.0": {
-        "dependencies": {
-          "Data": "1.0.0",
-          "Domain": "1.0.0",
-          "Infrastructure": "1.0.0"
-        },
         "runtime": {
           "Repositories.dll": {
             "assemblyVersion": "1.0.0.0",
