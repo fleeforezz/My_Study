@@ -34,14 +34,14 @@ E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\Rep
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\ref\Repositories.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Repositories\bin\Debug\net9.0\Domain.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\Repositories\bin\Debug\net9.0\Domain.pdb
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\bin\Debug\net9.0\Repositories.deps.json
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\bin\Debug\net9.0\Repositories.dll
+D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\bin\Debug\net9.0\Repositories.pdb
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\Repositories.AssemblyInfoInputs.cache
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\Repositories.AssemblyInfo.cs
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\Repositories.csproj.CoreCompileInputs.cache
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\Repositories.sourcelink.json
-D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\bin\Debug\net9.0\Repositories.deps.json
-D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\bin\Debug\net9.0\Repositories.dll
-D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\bin\Debug\net9.0\Repositories.pdb
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\Repositories.dll
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\refint\Repositories.dll
 D:\Stuff\Github\My_Study\.NET\Mini_Ecommerce\Repositories\obj\Debug\net9.0\Repositories.pdb

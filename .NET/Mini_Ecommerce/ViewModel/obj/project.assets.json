@@ -106,9 +106,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\UI.csproj",
-      "projectName": "UI",
-      "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\UI.csproj",
+      "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
+      "projectName": "ViewModel",
+      "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\ViewModel.csproj",
       "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
       "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\ViewModel\\obj\\",
       "projectStyle": "PackageReference",
