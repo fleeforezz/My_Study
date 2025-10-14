@@ -5,16 +5,21 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:UI"
-    mc:Ignorable="d"
+    xmlns:viewmodels="clr-namespace:UI.ViewModels"
     Title="Mini-Ecomerce"
     Height="630"
     Width="1253">
+
+    <Window.DataContext>
+        <viewmodels:MainViewModel />
+    </Window.DataContext>
+
     <Grid>
         <Border
             BorderBrush="#EBEBEB"
             BorderThickness="0,0,3,0"
             Background="White"
-            Margin="0,0,932,0">
+            Margin="0,0,1000,0">
             <Grid
                 Margin="0,0,0,0">
                 <Grid.RowDefinitions>
@@ -34,46 +39,66 @@
                     Stretch="Fill"
                     Grid.Row="1" />
                 <Button
+                    x:Name="DashBoardButton"
+                    Style="{StaticResource PillButton}"
+                    local:ButtonHelper.IconSource="assets/house-bold-lightGray.png"
+                    local:ButtonHelper.HoverIconSource="assets/house-bold-white.png"
+                    Command="{Binding ShowDashboardCommand}"
+                    Width="190"
+                    Height="48"
+                    Content="Dashboard"
+                    Margin="15,59,12,-107"
+                    Grid.Row="2" />
+                <Button
                     x:Name="ProductManagementButton"
                     Style="{StaticResource PillButton}"
                     local:ButtonHelper.IconSource="assets/package-bold-lightGray.png"
                     local:ButtonHelper.HoverIconSource="assets/package-bold-white.png"
-                    Width="240"
+                    Command="{Binding ShowProductCommand}"
+                    Width="192"
                     Height="48"
-                    Content="Product Management"
-                    Margin="16,58,46,-106"
+                    Content="Product"
+                    Margin="15,112,12,-160"
                     Grid.Row="2" />
                 <Button
                     x:Name="CustomerManagementButton"
                     Style="{StaticResource PillButton}"
                     local:ButtonHelper.IconSource="assets/users-four-bold-lightGray.png"
                     local:ButtonHelper.HoverIconSource="assets/users-four-bold-white.png"
-                    Width="240"
+                    Command="{Binding ShowCustomerCommand}"
+                    Width="190"
                     Height="48"
-                    Content="Customer Management"
-                    Margin="16,111,46,-159"
+                    Content="Customer"
+                    Margin="15,165,12,-213"
                     Grid.Row="2" />
                 <Button
                     x:Name="OrderManagementButton"
                     Style="{StaticResource PillButton}"
                     local:ButtonHelper.IconSource="assets/notepad-bold-lightGray.png"
                     local:ButtonHelper.HoverIconSource="assets/notepad-bold-white.png"
-                    Width="240"
+                    Command="{Binding ShowOrderCommand}"
+                    Width="190"
                     Height="48"
-                    Content="Order Management"
-                    Margin="16,164,46,-212"
+                    Content="Order"
+                    Margin="15,218,12,-266"
                     Grid.Row="2" />
                 <Button
                     x:Name="ReportManagementButton"
                     Style="{StaticResource PillButton}"
                     local:ButtonHelper.IconSource="assets/chart-line-bold-lightGray.png"
                     local:ButtonHelper.HoverIconSource="assets/chart-line-bold-white.png"
-                    Width="240"
+                    Command="{Binding ShowReportCommand}"
+                    Width="190"
                     Height="48"
-                    Content="Report Management"
-                    Margin="16,217,46,-265"
+                    Content="Report"
+                    Margin="15,271,12,-319"
                     Grid.Row="2" />
             </Grid>
         </Border>
+
+        <!-- Main Content Area -->
+        <ContentControl
+            Content="{Binding CurrentView}"
+            Margin="258,0,0,0" />
     </Grid>
 </Window>

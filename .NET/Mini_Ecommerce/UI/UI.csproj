@@ -12,6 +12,8 @@
   <ItemGroup>
     <None Remove="assets\chart-line-bold-lightGray.png" />
     <None Remove="assets\chart-line-bold-white.png" />
+    <None Remove="assets\house-bold-lightGray.png" />
+    <None Remove="assets\house-bold-white.png" />
     <None Remove="assets\Logo.png" />
     <None Remove="assets\note-pencil-bold-lightGray.png" />
     <None Remove="assets\note-pencil-bold-white.png" />
@@ -33,6 +35,12 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="assets\chart-line-bold-white.png" />
+    <Resource Include="assets\house-bold-lightGray.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\house-bold-white.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="assets\Logo.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>

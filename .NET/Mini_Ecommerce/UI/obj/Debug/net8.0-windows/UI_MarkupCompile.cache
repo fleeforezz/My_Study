@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\App.xaml
-11407045341
+6-703463638
 1-1606303973
-51673085950
+12-340452248
 198-192518753
-MainWindow.xaml;
+MainWindow.xaml;Views\CustomerView.xaml;Views\DashboardView.xaml;Views\OrderView.xaml;Views\ProductView.xaml;Views\ReportView.xaml;
 
 False
 

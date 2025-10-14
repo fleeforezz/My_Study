@@ -27,6 +27,10 @@ E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\bin\Debug\net8.0-windows\UI.ru
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\bin\Debug\net8.0-windows\UI.dll
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\bin\Debug\net8.0-windows\UI.pdb
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\CustomerView.g.cs
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\OrderView.g.cs
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\ProductView.g.cs
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\ReportView.g.cs
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\App.g.cs
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\UI_Content.g.cs
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
@@ -34,6 +38,10 @@ E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\UI_Ma
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\UI_MarkupCompile.lref
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\App.baml
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\MainWindow.baml
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\CustomerView.baml
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\OrderView.baml
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\ProductView.baml
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\ReportView.baml
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\UI.g.resources
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\UI.AssemblyInfoInputs.cache
@@ -45,3 +53,5 @@ E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\refin
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\UI.pdb
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\UI.genruntimeconfig.cache
 E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\ref\UI.dll
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\DashboardView.g.cs
+E:\Cabinet\Github\My_Study\.NET\Mini_Ecommerce\UI\obj\Debug\net8.0-windows\Views\DashboardView.baml
