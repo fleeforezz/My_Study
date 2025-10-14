@@ -6,7 +6,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:UI"
     mc:Ignorable="d"
-    Title="MainWindow"
+    Title="Mini-Ecomerce"
     Height="630"
     Width="1253">
     <Grid>
@@ -22,107 +22,57 @@
                         Height="Auto" />
                     <RowDefinition
                         Height="Auto" />
+                    <RowDefinition
+                        Height="Auto" />
                 </Grid.RowDefinitions>
+                <Image
+                    Margin="60,50,0,0"
+                    HorizontalAlignment="Left"
+                    Source="/assets/Logo.png"
+                    Width="100"
+                    Height="40"
+                    Stretch="Fill"
+                    Grid.Row="1" />
                 <Button
                     x:Name="ProductManagementButton"
                     Style="{StaticResource PillButton}"
-                    Width="243"
+                    local:ButtonHelper.IconSource="assets/package-bold-lightGray.png"
+                    local:ButtonHelper.HoverIconSource="assets/package-bold-white.png"
+                    Width="240"
                     Height="48"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="23,122,0,0"
-                    Click="ProductManagementButton_Click">
-                    <StackPanel
-                        Orientation="Horizontal"
-                        VerticalAlignment="Top"
-                        Width="210">
-                        <Image
-                            Source="assets/package-bold-lightGray.png"
-                            Width="25"
-                            Height="25"
-                            Margin="0, 0, 10, 0"
-                            RenderTransformOrigin="-0.15,0.552" />
-                        <TextBlock
-                            Text="Product Management"
-                            FontSize="16"
-                            FontWeight="DemiBold" />
-                    </StackPanel>
-                </Button>
+                    Content="Product Management"
+                    Margin="16,58,46,-106"
+                    Grid.Row="2" />
                 <Button
                     x:Name="CustomerManagementButton"
                     Style="{StaticResource PillButton}"
-                    Width="243"
+                    local:ButtonHelper.IconSource="assets/users-four-bold-lightGray.png"
+                    local:ButtonHelper.HoverIconSource="assets/users-four-bold-white.png"
+                    Width="240"
                     Height="48"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="23,5,0,0"
-                    Grid.Row="1">
-                    <StackPanel
-                        Orientation="Horizontal"
-                        VerticalAlignment="Top"
-                        Width="210">
-                        <Image
-                            Source="assets/package-bold-lightGray.png"
-                            Width="25"
-                            Height="25"
-                            Margin="0, 0, 10, 0"
-                            RenderTransformOrigin="-0.15,0.552" />
-                        <TextBlock
-                            Text="Customer Management"
-                            FontSize="16"
-                            FontWeight="DemiBold" />
-                    </StackPanel>
-                </Button>
+                    Content="Customer Management"
+                    Margin="16,111,46,-159"
+                    Grid.Row="2" />
                 <Button
                     x:Name="OrderManagementButton"
                     Style="{StaticResource PillButton}"
-                    Width="243"
+                    local:ButtonHelper.IconSource="assets/notepad-bold-lightGray.png"
+                    local:ButtonHelper.HoverIconSource="assets/notepad-bold-white.png"
+                    Width="240"
                     Height="48"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="23,58,0,0"
-                    Grid.Row="1">
-                    <StackPanel
-                        Orientation="Horizontal"
-                        VerticalAlignment="Top"
-                        Width="210">
-                        <Image
-                            Source="assets/package-bold-lightGray.png"
-                            Width="25"
-                            Height="25"
-                            Margin="0, 0, 10, 0"
-                            RenderTransformOrigin="-0.15,0.552" />
-                        <TextBlock
-                            Text="Order Management"
-                            FontSize="16"
-                            FontWeight="DemiBold" />
-                    </StackPanel>
-                </Button>
+                    Content="Order Management"
+                    Margin="16,164,46,-212"
+                    Grid.Row="2" />
                 <Button
                     x:Name="ReportManagementButton"
                     Style="{StaticResource PillButton}"
-                    Width="243"
+                    local:ButtonHelper.IconSource="assets/chart-line-bold-lightGray.png"
+                    local:ButtonHelper.HoverIconSource="assets/chart-line-bold-white.png"
+                    Width="240"
                     Height="48"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="23,111,0,0"
-                    Grid.Row="1">
-                    <StackPanel
-                        Orientation="Horizontal"
-                        VerticalAlignment="Top"
-                        Width="210">
-                        <Image
-                            Source="assets/package-bold-lightGray.png"
-                            Width="25"
-                            Height="25"
-                            Margin="0, 0, 10, 0"
-                            RenderTransformOrigin="-0.15,0.552" />
-                        <TextBlock
-                            Text="Report Management"
-                            FontSize="16"
-                            FontWeight="DemiBold" />
-                    </StackPanel>
-                </Button>
+                    Content="Report Management"
+                    Margin="16,217,46,-265"
+                    Grid.Row="2" />
             </Grid>
         </Border>
     </Grid>

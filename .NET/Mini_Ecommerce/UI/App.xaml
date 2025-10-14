@@ -39,7 +39,7 @@
                                 VerticalAlignment="Center">
                                 <Image
                                     x:Name="icon"
-                                    Source="assets/package-bold-lightGray.png"
+                                    Source="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=(local:ButtonHelper.IconSource)}"
                                     Width="25"
                                     Height="25"
                                     Margin="0,0,10,0" />
@@ -65,7 +65,7 @@
                                 <Setter
                                     TargetName="icon"
                                     Property="Source"
-                                    Value="assets/package-bold-white.png" />
+                                    Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=(local:ButtonHelper.HoverIconSource)}" />
                                 <Setter
                                     TargetName="text"
                                     Property="Foreground"

@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Application\\Application.csproj",
+      "projectUniqueName": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Application\\Application.csproj",
+      "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
-      "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Application\\obj\\",
+      "outputPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj"
+            "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj": {
+              "projectPath": "E:\\Cabinet\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj"
             }
           }
         }

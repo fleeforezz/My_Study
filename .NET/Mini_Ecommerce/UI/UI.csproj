@@ -10,9 +10,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="assets\chart-line-bold-lightGray.png" />
+    <None Remove="assets\chart-line-bold-white.png" />
+    <None Remove="assets\Logo.png" />
+    <None Remove="assets\note-pencil-bold-lightGray.png" />
+    <None Remove="assets\note-pencil-bold-white.png" />
+    <None Remove="assets\notepad-bold-lightGray.png" />
+    <None Remove="assets\notepad-bold-white.png" />
     <None Remove="assets\package-bold-lightGray.png" />
     <None Remove="assets\package-bold-white.png" />
     <None Remove="assets\package-bold.png" />
+    <None Remove="assets\users-four-bold-lightGray.png" />
+    <None Remove="assets\users-four-bold-white.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,10 +29,29 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="assets\chart-line-bold-lightGray.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\chart-line-bold-white.png" />
+    <Resource Include="assets\Logo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\notepad-bold-lightGray.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\notepad-bold-white.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="assets\package-bold-lightGray.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="assets\package-bold-white.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\users-four-bold-lightGray.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\users-four-bold-white.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
