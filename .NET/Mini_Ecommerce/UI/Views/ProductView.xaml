@@ -6,16 +6,35 @@
              xmlns:local="clr-namespace:UI.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <TextBlock
-            Text="🛍 Product Management"
-            FontSize="24"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center" />
-        <Button
-            Content="Button"
-            HorizontalAlignment="Left"
-            Margin="359,108,0,0"
-            VerticalAlignment="Top" />
+    <Grid
+        Background="#FFF">
+
+        <ListView
+            ItemsSource="{Binding Products}"
+            Margin="10"
+            BorderThickness="1"
+            BorderBrush="LightGray"
+            SelectionMode="Single">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn
+                        Header="ID"
+                        DisplayMemberBinding="{Binding Id}"
+                        Width="250" />
+                    <GridViewColumn
+                        Header="Name"
+                        DisplayMemberBinding="{Binding Name}"
+                        Width="200" />
+                    <GridViewColumn
+                        Header="Price ($)"
+                        DisplayMemberBinding="{Binding Price}"
+                        Width="100" />
+                    <GridViewColumn
+                        Header="Stock Quantity"
+                        DisplayMemberBinding="{Binding StockQuantity}"
+                        Width="120" />
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </UserControl>

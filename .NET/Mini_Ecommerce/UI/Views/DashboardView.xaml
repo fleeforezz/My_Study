@@ -17,7 +17,6 @@
         <Label
             HorizontalAlignment="Left"
             Margin="58,52,0,0"
-            TextWrapping="Wrap"
             Content="Dashboard"
             VerticalAlignment="Top"
             FontSize="27"
