@@ -1,21 +1,134 @@
-﻿<UserControl x:Class="UI.Views.DashboardView"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:UI.Views"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+﻿<UserControl
+    x:Class="UI.Views.DashboardView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:UI.Views"
+    mc:Ignorable="d"
+    d:DesignHeight="450"
+    d:DesignWidth="1000">
     <Grid>
-        <TextBlock
-            Text="🛍 Dashboard Management"
-            FontSize="24"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center" />
-        <Button
-            Content="Button"
+        <StackPanel
+            VerticalAlignment="Top"
             HorizontalAlignment="Left"
-            Margin="359,108,0,0"
-            VerticalAlignment="Top" />
+            Margin="225,317,0,0">
+        </StackPanel>
+        <Label
+            HorizontalAlignment="Left"
+            Margin="58,52,0,0"
+            TextWrapping="Wrap"
+            Content="Dashboard"
+            VerticalAlignment="Top"
+            FontSize="27"
+            FontWeight="DemiBold"
+            BorderThickness="0"
+            Background="Transparent"
+            Width="183" />
+        <Border
+            BorderBrush="#EBEBEB"
+            BorderThickness="2"
+            CornerRadius="10"
+            HorizontalAlignment="Left"
+            Height="126"
+            Margin="72,124,0,0"
+            VerticalAlignment="Top"
+            Width="266">
+            <StackPanel
+                HorizontalAlignment="Center"
+                Width="240"
+                Margin="10">
+                <Label
+                    Content="Total Product"
+                    FontSize="16"
+                    FontWeight="DemiBold"
+                    Foreground="#626AE7"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left" />
+                <Label
+                    Content="{Binding ProductCount}"
+                    FontSize="20"
+                    FontWeight="DemiBold"
+                    Foreground="#686262"
+                    Margin="0,10,0,0"
+                    HorizontalAlignment="Left" />
+                <Label
+                    Content="Products in system"
+                    FontSize="14"
+                    Foreground="#686262"
+                    Margin="0,0,0,0"
+                    HorizontalAlignment="Left" />
+            </StackPanel>
+        </Border>
+        <Border
+            BorderBrush="#EBEBEB"
+            BorderThickness="2"
+            CornerRadius="10"
+            HorizontalAlignment="Left"
+            Height="126"
+            Margin="376,124,0,0"
+            VerticalAlignment="Top"
+            Width="293">
+            <StackPanel
+                HorizontalAlignment="Center"
+                Width="240"
+                Margin="10">
+                <Label
+                    Content="Total Customer"
+                    FontSize="16"
+                    FontWeight="DemiBold"
+                    Foreground="#626AE7"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left" />
+                <Label
+                    Content="{Binding ProductCount}"
+                    FontSize="20"
+                    FontWeight="DemiBold"
+                    Foreground="#686262"
+                    Margin="0,10,0,0"
+                    HorizontalAlignment="Left" />
+                <Label
+                    Content="Customers in system"
+                    FontSize="14"
+                    Foreground="#686262"
+                    Margin="0,0,0,0"
+                    HorizontalAlignment="Left" />
+            </StackPanel>
+        </Border>
+        <Border
+            BorderBrush="#EBEBEB"
+            BorderThickness="2"
+            CornerRadius="10"
+            HorizontalAlignment="Left"
+            Height="126"
+            Margin="705,124,0,0"
+            VerticalAlignment="Top"
+            Width="257">
+            <StackPanel
+                HorizontalAlignment="Center"
+                Width="240"
+                Margin="10">
+                <Label
+                    Content="Total Order"
+                    FontSize="16"
+                    FontWeight="DemiBold"
+                    Foreground="#626AE7"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left" />
+                <Label
+                    Content="{Binding ProductCount}"
+                    FontSize="20"
+                    FontWeight="DemiBold"
+                    Foreground="#686262"
+                    Margin="0,10,0,0"
+                    HorizontalAlignment="Left" />
+                <Label
+                    Content="Orders in system"
+                    FontSize="14"
+                    Foreground="#686262"
+                    Margin="0,0,0,0"
+                    HorizontalAlignment="Left" />
+            </StackPanel>
+        </Border>
     </Grid>
 </UserControl>

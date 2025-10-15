@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositorie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{02E9ADD3-185E-4A7B-BB1E-4493EA103A9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C0AC0E3D-105B-4A31-AD04-82973510891E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniEcommerce.Domain", "Domain\MiniEcommerce.Domain.csproj", "{C0AC0E3D-105B-4A31-AD04-82973510891E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{9A2B6289-2885-48C5-9E3D-1E7F7B9FA330}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniEcommerce.Application", "Application\MiniEcommerce.Application.csproj", "{9A2B6289-2885-48C5-9E3D-1E7F7B9FA330}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{970787FC-8EE7-4797-A003-6CDD082DBD0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniEcommerce.Infrastructure", "Infrastructure\MiniEcommerce.Infrastructure.csproj", "{970787FC-8EE7-4797-A003-6CDD082DBD0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{C2155DD3-C3EF-4C1E-B2A0-63E99FD821CC}"
 EndProject

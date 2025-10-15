@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\MiniEcommerce.Domain.csproj",
+      "projectName": "MiniEcommerce.Domain",
+      "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\MiniEcommerce.Domain.csproj",
       "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
       "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\obj\\",
       "projectStyle": "PackageReference",

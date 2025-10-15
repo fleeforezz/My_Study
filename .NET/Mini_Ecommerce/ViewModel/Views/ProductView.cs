@@ -1,7 +1,7 @@
-﻿using Application.Services;
-using Domain.Entities;
-using Domain.Interfaces;
-using Infrastructure.Persistence;
+﻿using MiniEcommerce.Infrastructure.Persistence;
+using MiniEcommerce.Application.Services;
+using MiniEcommerce.Domain.Entities;
+using MiniEcommerce.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

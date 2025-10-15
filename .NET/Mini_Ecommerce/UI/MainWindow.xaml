@@ -19,7 +19,7 @@
             BorderBrush="#EBEBEB"
             BorderThickness="0,0,3,0"
             Background="White"
-            Margin="0,0,1000,0">
+            HorizontalAlignment="Left">
             <Grid
                 Margin="0,0,0,0">
                 <Grid.RowDefinitions>
@@ -95,10 +95,30 @@
                     Grid.Row="2" />
             </Grid>
         </Border>
+        <Border
+            Background="#f6f7fa"
+            BorderThickness="0"
+            HorizontalAlignment="Left"
+            Height="96"
+            Margin="222,0,0,0"
+            VerticalAlignment="Top"
+            Width="1031">
+            <TextBox
+                TextAlignment="Left"
+                BorderThickness="0"
+                Background="Transparent"
+                TextWrapping="Wrap"
+                Text="Username"
+                FontSize="20"
+                FontWeight="DemiBold"
+                Margin="84,33,594,33" />
+
+        </Border>
 
         <!-- Main Content Area -->
         <ContentControl
             Content="{Binding CurrentView}"
-            Margin="258,0,0,0" />
+            Margin="222,96,0,0" />
+
     </Grid>
 </Window>

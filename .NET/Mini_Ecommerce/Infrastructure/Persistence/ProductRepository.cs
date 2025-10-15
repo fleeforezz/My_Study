@@ -1,12 +1,12 @@
-﻿using Domain.Entities;
-using Domain.Interfaces;
+﻿using MiniEcommerce.Domain.Entities;
+using MiniEcommerce.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Persistence
+namespace MiniEcommerce.Infrastructure.Persistence
 {
     public class ProductRepository : IProductRepository
     {

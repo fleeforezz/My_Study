@@ -31,6 +31,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Application\MiniEcommerce.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\MiniEcommerce.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="assets\chart-line-bold-lightGray.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>

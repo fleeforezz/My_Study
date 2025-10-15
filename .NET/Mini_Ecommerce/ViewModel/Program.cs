@@ -1,6 +1,6 @@
-﻿using Application.Interfaces;
-using Application.Services;
-using Domain.Interfaces;
+﻿using MiniEcommerce.Application.Interfaces;
+using MiniEcommerce.Application.Services;
+using MiniEcommerce.Domain.Repositories;
 //using Services;
 using UI.Utils;
 using UI.Views;

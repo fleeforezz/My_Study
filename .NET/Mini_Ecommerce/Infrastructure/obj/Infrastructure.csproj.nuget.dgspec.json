@@ -4,12 +4,12 @@
     "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj": {
+    "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\MiniEcommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\MiniEcommerce.Domain.csproj",
+        "projectName": "MiniEcommerce.Domain",
+        "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\MiniEcommerce.Domain.csproj",
         "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
         "outputPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\Domain.csproj"
+              "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\MiniEcommerce.Domain.csproj": {
+                "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Domain\\MiniEcommerce.Domain.csproj"
               }
             }
           }

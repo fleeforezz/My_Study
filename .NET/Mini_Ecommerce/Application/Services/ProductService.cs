@@ -1,14 +1,14 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
-using Domain.Entities;
-using Domain.Interfaces;
+﻿using MiniEcommerce.Domain.Entities;
+using MiniEcommerce.Application.DTOs;
+using MiniEcommerce.Application.Interfaces;
+using MiniEcommerce.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Services
+namespace MiniEcommerce.Application.Services
 {
     public class ProductService : IProductService
     {

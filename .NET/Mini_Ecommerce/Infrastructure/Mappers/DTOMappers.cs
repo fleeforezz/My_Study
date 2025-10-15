@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Mappers
+namespace MiniEcommerce.Infrastructure.Mappers
 {
     internal class DTOMappers
     {

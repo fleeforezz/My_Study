@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Persistence
+namespace MiniEcommerce.Infrastructure.Persistence
 {
     public class FileDatabase<T>
     {

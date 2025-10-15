@@ -7,14 +7,63 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "UI/1.0.0": {
+        "dependencies": {
+          "MiniEcommerce.Application": "1.0.0",
+          "MiniEcommerce.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "UI.dll": {}
+        }
+      },
+      "MiniEcommerce.Application/1.0.0": {
+        "dependencies": {
+          "MiniEcommerce.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MiniEcommerce.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MiniEcommerce.Domain/1.0.0": {
+        "runtime": {
+          "MiniEcommerce.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MiniEcommerce.Infrastructure/1.0.0": {
+        "dependencies": {
+          "MiniEcommerce.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MiniEcommerce.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniEcommerce.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniEcommerce.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniEcommerce.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

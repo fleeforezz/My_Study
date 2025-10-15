@@ -1,11 +1,67 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "MiniEcommerce.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MiniEcommerce.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiniEcommerce.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniEcommerce.Application.dll": {}
+        }
+      },
+      "MiniEcommerce.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MiniEcommerce.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniEcommerce.Domain.dll": {}
+        }
+      },
+      "MiniEcommerce.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MiniEcommerce.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiniEcommerce.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniEcommerce.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MiniEcommerce.Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/MiniEcommerce.Application.csproj",
+      "msbuildProject": "../Application/MiniEcommerce.Application.csproj"
+    },
+    "MiniEcommerce.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/MiniEcommerce.Domain.csproj",
+      "msbuildProject": "../Domain/MiniEcommerce.Domain.csproj"
+    },
+    "MiniEcommerce.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/MiniEcommerce.Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/MiniEcommerce.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "MiniEcommerce.Application >= 1.0.0",
+      "MiniEcommerce.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jso\\.nuget\\packages\\": {},
@@ -38,7 +94,14 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Application\\MiniEcommerce.Application.csproj": {
+              "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Application\\MiniEcommerce.Application.csproj"
+            },
+            "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Infrastructure\\MiniEcommerce.Infrastructure.csproj": {
+              "projectPath": "D:\\Stuff\\Github\\My_Study\\.NET\\Mini_Ecommerce\\Infrastructure\\MiniEcommerce.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
