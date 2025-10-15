@@ -1,0 +1,61 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.log
+*.pdb
+*.ilk
+*.aps
+*.bsc
+*.sbr
+*.res
+*.pch
+*.idb
+*_i.c
+*_p.c
+*.ncb
+*.vc.db
+*.opendb
+*.tlog
+*.lastbuildstate
+*.objlistfile
+*.filters
+*.metagen
+*.manifest
+*.vshost.*
+*.testsettings
+*.trx
+*.coverage
+*.coveragexml
+
+# Packages
+packages/
+*.nupkg
+*.snk
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+publish/
+tmp/
+*.tmp
+*.webinfo
+*.userprefs
+*.DS_Store
+*.pid
+
+# User-specific settings
+appsettings*.Development.json
+appsettings*.Production.json
+appsettings*.Staging.json
+appsettings*.json.user
+launchSettings.json
