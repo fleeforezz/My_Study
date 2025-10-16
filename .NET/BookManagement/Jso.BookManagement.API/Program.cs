@@ -1,4 +1,11 @@
 
+using Jso.BookManagement.Application.Interfaces;
+using Jso.BookManagement.Application.Services;
+using Jso.BookManagement.Domain.Repositories;
+using Jso.BookManagement.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+using System;
+
 namespace Jso.BookManagement.API
 {
     public class Program
@@ -13,6 +20,10 @@ namespace Jso.BookManagement.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<BookManagementDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserService, UserService>();
 
             var app = builder.Build();
 
