@@ -1,0 +1,38 @@
+﻿version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: bookmanagement-api
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=BookManagement;Username=jso;Password=TMNNT012928637160822863716
+    volumes:
+      - ./Jso.BookManagement.API:/src/Jso.BookManagement.API
+      - ./Jso.BookManagement.Application:/src/Jso.BookManagement.Application
+      - ./Jso.BookManagement.Domain:/src/Jso.BookManagement.Domain
+      - ./Jso.BookManagement.Infrastructure:/src/Jso.BookManagement.Infrastructure
+      - ~/.aspnet/https:/https:ro
+    depends_on:
+      - db
+    command: ["dotnet", "watch", "run", "--urls", "http://0.0.0.0:8080"]
+
+  db:
+    image: postgres:15
+    container_name: bookmanagement-db
+    restart: always
+    environment:
+      - POSTGRES_USER=jso
+      - POSTGRES_PASSWORD=TMNNT012928637160822863716
+      - POSTGRES_DB=BookManagement
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data:

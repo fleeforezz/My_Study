@@ -21,7 +21,12 @@ namespace Jso.BookManagement.API.Controllers
         {
             var users = await _userService.GetAllUserAsync();
 
-            return Ok(users);
+            if (users  == null)
+            {
+                return Ok(users);
+            }
+
+            return NotFound();
         }
     }
 }

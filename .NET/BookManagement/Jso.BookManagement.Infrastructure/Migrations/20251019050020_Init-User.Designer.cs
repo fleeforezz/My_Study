@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Jso.BookManagement.Infrastructure.Migrations
 {
     [DbContext(typeof(BookManagementDbContext))]
-    [Migration("20251016044131_Init")]
-    partial class Init
+    [Migration("20251019050020_Init-User")]
+    partial class InitUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

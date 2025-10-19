@@ -1,0 +1,27 @@
+﻿version: '3.9'
+
+services:
+  api:
+    image: yourrepo/bookmanagement:latest
+    container_name: bookmanagement-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Host=db;Database=bookdb;Username=postgres;Password=secret
+    ports:
+      - "80:8080"
+    depends_on:
+      - db
+    restart: always
+
+  db:
+    image: postgres:16
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=bookdb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  pgdata:

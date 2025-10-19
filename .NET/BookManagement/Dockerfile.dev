@@ -1,0 +1,24 @@
+﻿FROM mcr.microsoft.com/dotnet/sdk:8.0 AS dev
+WORKDIR /src
+
+# Copy all csproj files to restore dependencies
+COPY Jso.BookManagement.API/Jso.BookManagement.API.csproj Jso.BookManagement.API/
+COPY Jso.BookManagement.Application/Jso.BookManagement.Application.csproj Jso.BookManagement.Application/
+COPY Jso.BookManagement.Infrastructure/Jso.BookManagement.Infrastructure.csproj Jso.BookManagement.Infrastructure/
+
+# Restore dependencies
+RUN dotnet restore Jso.BookManagement.API/Jso.BookManagement.API.csproj
+
+# Copy everything
+COPY . .
+
+# Expose ports for ASP.NET and optional hot reload
+EXPOSE 8080
+EXPOSE 8081
+
+# Set environment variable for development
+ENV ASPNETCORE_ENVIRONMENT=Development
+
+# Run with hot reload
+WORKDIR /src/Jso.BookManagement.API
+ENTRYPOINT ["dotnet", "watch", "run", "--urls", "http://0.0.0.0:8080"]
