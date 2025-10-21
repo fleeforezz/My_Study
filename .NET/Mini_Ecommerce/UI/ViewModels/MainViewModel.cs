@@ -34,7 +34,7 @@ namespace UI.ViewModels
         {
             // Init default view
             //CurrentView = new DashboardView();
-            CurrentView = new ProductView();
+            CurrentView = new DashboardView();
 
             // Create commands
             ShowDashboardCommand = new RelayCommand(_ => CurrentView = new DashboardView());

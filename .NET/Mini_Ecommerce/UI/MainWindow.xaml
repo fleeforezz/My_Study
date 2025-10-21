@@ -103,15 +103,13 @@
             Margin="222,0,0,0"
             VerticalAlignment="Top"
             Width="1031">
-            <TextBox
-                TextAlignment="Left"
+            <Label
                 BorderThickness="0"
                 Background="Transparent"
-                TextWrapping="Wrap"
-                Text="Username"
+                Content="Username"
                 FontSize="20"
                 FontWeight="DemiBold"
-                Margin="84,33,594,33" />
+                Margin="84,33,594,30" />
 
         </Border>
 
