@@ -2,24 +2,20 @@
 
 services:
   api:
+    container_name: bookmanagement-api
     build:
       context: .
       dockerfile: Dockerfile.dev
-    container_name: bookmanagement-api
     ports:
       - "5000:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=BookManagement;Username=jso;Password=TMNNT012928637160822863716
-    volumes:
-      - ./Jso.BookManagement.API:/src/Jso.BookManagement.API
-      - ./Jso.BookManagement.Application:/src/Jso.BookManagement.Application
-      - ./Jso.BookManagement.Domain:/src/Jso.BookManagement.Domain
-      - ./Jso.BookManagement.Infrastructure:/src/Jso.BookManagement.Infrastructure
-      - ~/.aspnet/https:/https:ro
     depends_on:
       - db
-    command: ["dotnet", "watch", "run", "--urls", "http://0.0.0.0:8080"]
+    # Only mount NuGet cache, not source code for now
+    volumes:
+      - nuget_cache:/root/.nuget/packages
 
   db:
     image: postgres:15
@@ -29,10 +25,11 @@ services:
       - POSTGRES_USER=jso
       - POSTGRES_PASSWORD=TMNNT012928637160822863716
       - POSTGRES_DB=BookManagement
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
 
 volumes:
   postgres_data:
+  nuget_cache:

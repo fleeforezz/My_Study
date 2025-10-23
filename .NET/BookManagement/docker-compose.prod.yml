@@ -2,26 +2,38 @@
 
 services:
   api:
-    image: yourrepo/bookmanagement:latest
     container_name: bookmanagement-api
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__DefaultConnection=Host=db;Database=bookdb;Username=postgres;Password=secret
+    build:
+      context: .
+      dockerfile: Dockerfile.prod   # 👈 switch to Dockerfile.prod for production
     ports:
-      - "80:8080"
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=BookManagement;Username=jso;Password=TMNNT012928637160822863716
+    volumes:
+      - ./Jso.BookManagement.API:/src/Jso.BookManagement.API
+      - ./Jso.BookManagement.Application:/src/Jso.BookManagement.Application
+      - ./Jso.BookManagement.Domain:/src/Jso.BookManagement.Domain
+      - ./Jso.BookManagement.Infrastructure:/src/Jso.BookManagement.Infrastructure
+      - nuget_cache:/root/.nuget/packages
     depends_on:
       - db
-    restart: always
+    command: ["dotnet", "watch", "run", "--urls", "http://0.0.0.0:8080"]
 
   db:
-    image: postgres:16
-    environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=secret
-      - POSTGRES_DB=bookdb
-    volumes:
-      - pgdata:/var/lib/postgresql/data
+    image: postgres:15
+    container_name: bookmanagement-db
     restart: always
+    environment:
+      - POSTGRES_USER=jso
+      - POSTGRES_PASSWORD=TMNNT012928637160822863716
+      - POSTGRES_DB=BookManagement
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
 
 volumes:
-  pgdata:
+  postgres_data:
+  nuget_cache:
