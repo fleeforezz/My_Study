@@ -9,7 +9,7 @@ namespace Jso.BookManagement.Domain.Repositories
 {
     public interface IUserRepository
     {
-        Task AddAsync(User user);
+        Task<User?> AddAsync(User user);
         Task<User?> GetByIdAsync(Guid id);
         Task<IEnumerable<User>> GetAllAsync();
         Task<User?> UpdateAync(Guid id,  User user);

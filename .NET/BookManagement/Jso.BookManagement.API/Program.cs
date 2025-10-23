@@ -24,6 +24,16 @@ namespace Jso.BookManagement.API
             builder.Services.AddDbContext<BookManagementDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowVite",
+                    policy =>
+                    {
+                        policy.WithOrigins("http://localhost:5174") // your Vite dev URL
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+            });
 
             var app = builder.Build();
 
@@ -37,11 +47,13 @@ namespace Jso.BookManagement.API
             app.UseSwagger();
             app.UseSwaggerUI();
 
+
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
-
+            app.UseCors("AllowVite");
             app.MapControllers();
 
             app.Run();

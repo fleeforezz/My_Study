@@ -1,5 +1,6 @@
 ﻿using Jso.BookManagement.Domain.Entities;
 using Jso.BookManagement.Domain.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +18,17 @@ namespace Jso.BookManagement.Infrastructure.Persistence
             _dbContext = dbContext;
         }
 
-        public Task AddAsync(User user)
+        public async Task<User?> AddAsync(User user)
         {
-            throw new NotImplementedException();
+            var existUser = await _dbContext.Users.FirstOrDefaultAsync(u => u.Id == user.Id);
+            if (existUser == null)
+            {
+                _dbContext.Users.Add(user);
+                await _dbContext.SaveChangesAsync();
+                return user;
+            }
+
+            return existUser;
         }
 
         public Task DeleteAsync(Guid id)
@@ -29,13 +38,15 @@ namespace Jso.BookManagement.Infrastructure.Persistence
 
         public async Task<IEnumerable<User>> GetAllAsync()
         {
-            var users = _dbContext.Users.ToList();
-            return await Task.FromResult(users);
+            //var users = _dbContext.Users.ToList();
+            //return await Task.FromResult(users);
+
+            return await _dbContext.Users.ToListAsync();
         }
 
-        public Task<User?> GetByIdAsync(Guid id)
+        public async Task<User?> GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return await _dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
         }
 
         public Task<User?> UpdateAync(Guid id, User user)

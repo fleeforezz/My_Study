@@ -1,5 +1,7 @@
-﻿using Jso.BookManagement.Application.Interfaces;
+﻿using Jso.BookManagement.Application.DTOs;
+using Jso.BookManagement.Application.Interfaces;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -17,16 +19,39 @@ namespace Jso.BookManagement.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllProduct()
+        public async Task<IActionResult> GetAllUserAsync()
         {
             var users = await _userService.GetAllUserAsync();
 
             if (users  == null)
             {
-                return Ok(users);
+                return NotFound();
             }
 
-            return NotFound();
+            return Ok(users);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddUserAsync(UserDto user)
+        {
+            var newUser = await _userService.AddUserAsync(user);
+
+            if (newUser == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(newUser);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetUserByIdAync(Guid id)
+        {
+            var user = await _userService.GetUserByIdAsync(id);
+            if (user == null) 
+                return NotFound();
+
+            return Ok(user);
         }
     }
 }
