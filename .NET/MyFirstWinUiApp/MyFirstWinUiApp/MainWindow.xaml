@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="MyFirstWinUiApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyFirstWinUiApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:CommunityToolkit.WinUI.Controls"
+    mc:Ignorable="d"
+    Title="MyFirstWinUiApp">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <Grid>
+        <controls:SettingsCard
+            x:Name="settingsCard"
+            Description="{x:Bind ViewModel.Count, Mode=OneWay}"
+            Header="This is the Header">
+            <Button
+                Content="Click Me !!!" 
+                Command="{x:Bind ViewModel.InrementCountCommand}"/>
+        </controls:SettingsCard>
+
+    </Grid>
+</Window>
