@@ -6,6 +6,10 @@ import java.util.List;
 
 public class UserRepository implements IRepository<User> {
 
+    public UserRepository(UserRepository userRepository) {
+        userRepository = userRepository;
+    }
+
     @Override
     public List<User> getAll() {
         return List.of();

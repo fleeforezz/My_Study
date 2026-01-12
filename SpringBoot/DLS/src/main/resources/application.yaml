@@ -1,3 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /group4
+
 spring:
   application:
     name: DLS
+
+  datasource:
+    url: "jdbc:mysql://localhost:3306/DLS"
+    username: root
+    password: TMNNT012928637160822863716
