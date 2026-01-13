@@ -1,7 +1,7 @@
 server:
   port: 8080
   servlet:
-    context-path: /group4
+    context-path: /api/v1
 
 spring:
   application:
@@ -11,3 +11,11 @@ spring:
     url: "jdbc:mysql://localhost:3306/DLS"
     username: root
     password: TMNNT012928637160822863716
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        "[format_sql]": true
