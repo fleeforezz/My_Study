@@ -25,7 +25,7 @@ public class UserService {
     // Get user by ID
     public User getUserById(String id) {
         return userRepo.findById(id)
-            .orElseThrow(() -> new RuntimeException("User not found"));
+            .orElseThrow(() -> new AppException(ErrorCode.USER_NOT_FOUND));
     }
 
     // Create user with email uniqueness check
@@ -47,7 +47,7 @@ public class UserService {
     // Update user details
     public User updateUser(String id, UserUpdateReq request) {
         User user = userRepo.findById(id)
-            .orElseThrow(() -> new RuntimeException("User not found"));
+            .orElseThrow(() -> new AppException(ErrorCode.USER_NOT_FOUND));
 
         if (user != null) {
             user.setUsername(request.getUsername());
@@ -64,7 +64,7 @@ public class UserService {
     // Delete user by ID
     public void deleteUser(String id) {
         User user = userRepo.findById(id)
-            .orElseThrow(() -> new RuntimeException("User not found"));
+            .orElseThrow(() -> new AppException(ErrorCode.USER_NOT_FOUND));
 
         if (user != null) {
             userRepo.delete(user);

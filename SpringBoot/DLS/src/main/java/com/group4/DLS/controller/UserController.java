@@ -34,13 +34,25 @@ public class UserController {
     * ===============
     */
     @GetMapping
-    public List<User> getAllUsers() {
-        return userService.getAllUsers();
+    public ApiResponse<List<User>> getAllUsers() {
+        ApiResponse<List<User>> response = new ApiResponse<>();
+
+        response.setCode(200);
+        response.setMessage("Users fetched successfully");
+        response.setData(userService.getAllUsers());
+
+        return response;
     }
 
     @GetMapping("/{id}")
-    public User getUserById(@PathVariable String id) {
-        return userService.getUserById(id);
+    public ApiResponse<User> getUserById(@PathVariable String id) {
+        ApiResponse<User> response = new ApiResponse<>();
+
+        response.setCode(200);
+        response.setData(userService.getUserById(id));
+        response.setMessage("User fetched successfully");
+
+        return response;
     }
     
 
@@ -56,12 +68,25 @@ public class UserController {
     }
 
     @PutMapping("/{id}")
-    public User updateUser(@PathVariable String id, @RequestBody @Valid UserUpdateReq request) {
-        return userService.updateUser(id, request);
+    public ApiResponse<User> updateUser(@PathVariable String id, @RequestBody @Valid UserUpdateReq request) {
+        ApiResponse<User> response = new ApiResponse<>();
+
+        response.setCode(200);
+        response.setMessage("User updated successfully");
+        response.setData(userService.updateUser(id, request));
+
+        return response;
     }
 
     @DeleteMapping("/{id}")
-    public void deleteUser(@PathVariable String id) {
+    public ApiResponse<User> deleteUser(@PathVariable String id) {
+        ApiResponse<User> response = new ApiResponse<>();
         userService.deleteUser(id);
+
+        response.setCode(200);
+        response.setMessage("User deleted successfully");
+        response.setData(null);
+
+        return response;
     }
 }
