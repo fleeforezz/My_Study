@@ -2,6 +2,8 @@ package com.group4.DLS.domain.entity;
 
 import java.time.LocalDate;
 
+import org.springframework.boot.context.properties.bind.DefaultValue;
+
 import com.group4.DLS.domain.enums.UserStatus;
 
 import jakarta.persistence.Column;
@@ -22,8 +24,8 @@ import lombok.Setter;
 @Setter
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private String id;
     
     @Column(unique = true, nullable = false)
     private String username;
