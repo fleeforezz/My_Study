@@ -3,10 +3,13 @@ package com.group4.DLS.controller;
 import com.group4.DLS.domain.dto.request.ApiResponse;
 import com.group4.DLS.domain.dto.request.UserCreationReq;
 import com.group4.DLS.domain.dto.request.UserUpdateReq;
+import com.group4.DLS.domain.dto.response.UserResponse;
 import com.group4.DLS.domain.entity.User;
 import com.group4.DLS.service.UserService;
 
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.FieldDefaults;
 
 import java.util.List;
 
@@ -22,11 +25,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 
 @RestController
+@RequiredArgsConstructor
+@FieldDefaults(level = lombok.AccessLevel.PRIVATE , makeFinal = true)
 @RequestMapping("/api/v1/users")
 public class UserController {
 
-    @Autowired
-    private UserService userService;
+    UserService userService;
 
     /*
     * ================
@@ -45,8 +49,8 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public ApiResponse<User> getUserById(@PathVariable String id) {
-        ApiResponse<User> response = new ApiResponse<>();
+    public ApiResponse<UserResponse> getUserById(@PathVariable String id) {
+        ApiResponse<UserResponse> response = new ApiResponse<>();
 
         response.setCode(200);
         response.setData(userService.getUserById(id));
@@ -57,8 +61,8 @@ public class UserController {
     
 
     @PostMapping
-    public ApiResponse<User> createUser(@RequestBody @Valid UserCreationReq request) {
-        ApiResponse<User> response = new ApiResponse<>();
+    public ApiResponse<UserResponse> createUser(@RequestBody @Valid UserCreationReq request) {
+        ApiResponse<UserResponse> response = new ApiResponse<>();
 
         response.setCode(200);
         response.setMessage("User created successfully");
