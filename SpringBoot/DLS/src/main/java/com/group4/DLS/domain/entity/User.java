@@ -13,33 +13,39 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.experimental.FieldDefaults;
 
 @Entity
 @Table(name = "users")
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@FieldDefaults(level = lombok.AccessLevel.PRIVATE)
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private String id;
+    String id;
     
     @Column(unique = true, nullable = false)
-    private String username;
+    String username;
 
     @Column(nullable = false)
-    private String password;
+    String password;
 
     @Column(unique = true, nullable = false)
-    private String email;
+    String email;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private UserStatus status;
+    UserStatus status;
 
     @Column(nullable = false, updatable = false)
-    private LocalDate createdAt;
+    LocalDate createdAt;
 
     @PrePersist
     protected void onCreate() {

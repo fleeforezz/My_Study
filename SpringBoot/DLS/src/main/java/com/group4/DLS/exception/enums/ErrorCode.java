@@ -2,8 +2,10 @@ package com.group4.DLS.exception.enums;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.experimental.FieldDefaults;
 
 @Getter
+@FieldDefaults(level = lombok.AccessLevel.PRIVATE)
 @RequiredArgsConstructor
 public enum ErrorCode {
     UNCATEGORIZED(999, "Uncategorized error"),
@@ -14,9 +16,9 @@ public enum ErrorCode {
     INVALID_USERNAME(400, "Invalid username"),
     INVALID_PASSWORD(400, "Invalid password"),
     INVALID_EMAIL(400, "Invalid email"),
-    
+
     INTERNAL_SERVER_ERROR(500, "Internal server error");
 
-    private final int code;
-    private final String message;
+    final int code;
+    final String message;
 }
