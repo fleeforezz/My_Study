@@ -48,11 +48,7 @@ public class UserService {
             .orElseThrow(() -> new AppException(ErrorCode.USER_NOT_FOUND));
 
         if (user != null) {
-            user.setUsername(request.getUsername());
-            user.setPassword(request.getPassword());
-            user.setEmail(request.getEmail());
-            user.setStatus(request.getStatus());
-
+            userMapper.updateUserFromRequest(request, user);
             return userRepo.save(user);
         }
 
