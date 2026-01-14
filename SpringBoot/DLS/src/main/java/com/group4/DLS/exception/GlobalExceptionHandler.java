@@ -44,9 +44,18 @@ public class GlobalExceptionHandler {
 
     // Handle validation errors
     @ExceptionHandler(value = MethodArgumentNotValidException.class)
-    public ResponseEntity<String> handleValidation(MethodArgumentNotValidException ex) {
+    public ResponseEntity<ApiResponse<String>> handleValidation(MethodArgumentNotValidException ex) {
+        ApiResponse<String> response = new ApiResponse<>();
+
+        String enumString = ex.getFieldError().getDefaultMessage();
+        ErrorCode errorCode = ErrorCode.valueOf(enumString);
+
+        response.setCode(errorCode.getCode());
+        response.setMessage(errorCode.getMessage());
+        response.setData(null);
+
         return ResponseEntity
             .badRequest()
-            .body(ex.getBindingResult().getAllErrors().get(0).getDefaultMessage());
+            .body(response);
     }
 }

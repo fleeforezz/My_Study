@@ -28,6 +28,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    /*
+    * ================
+    * CRUD Operations
+    * ===============
+    */
     @GetMapping
     public List<User> getAllUsers() {
         return userService.getAllUsers();

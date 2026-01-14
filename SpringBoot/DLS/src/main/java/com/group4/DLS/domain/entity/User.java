@@ -2,8 +2,6 @@ package com.group4.DLS.domain.entity;
 
 import java.time.LocalDate;
 
-import org.springframework.boot.context.properties.bind.DefaultValue;
-
 import com.group4.DLS.domain.enums.UserStatus;
 
 import jakarta.persistence.Column;
