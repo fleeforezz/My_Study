@@ -64,23 +64,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fleef\\.nuget\\packages\\": {},
+    "C:\\Users\\jso\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\UI\\UI.csproj",
+      "projectUniqueName": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\UI\\UI.csproj",
-      "packagesPath": "C:\\Users\\fleef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\UI\\obj\\",
+      "projectPath": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\fleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -95,11 +95,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Application\\MiniEcommerce.Application.csproj": {
-              "projectPath": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Application\\MiniEcommerce.Application.csproj"
+            "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Application\\MiniEcommerce.Application.csproj": {
+              "projectPath": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Application\\MiniEcommerce.Application.csproj"
             },
-            "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Infrastructure\\MiniEcommerce.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Infrastructure\\MiniEcommerce.Infrastructure.csproj"
+            "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Infrastructure\\MiniEcommerce.Infrastructure.csproj": {
+              "projectPath": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Infrastructure\\MiniEcommerce.Infrastructure.csproj"
             }
           }
         }
@@ -114,7 +114,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -138,7 +138,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

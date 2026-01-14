@@ -58,7 +58,6 @@ public class UserController {
 
         return response;
     }
-    
 
     @PostMapping
     public ApiResponse<UserResponse> createUser(@RequestBody @Valid UserCreationReq request) {

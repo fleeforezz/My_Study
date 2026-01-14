@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj": {}
+    "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
+    "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\fleef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\obj\\",
+        "projectPath": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -60,29 +60,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj": {
+    "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\fleef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Services\\obj\\",
+        "projectPath": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\jso\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +111,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\fleef\\Documents\\GitHub\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj"
+              "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\fleeforezz\\My_Study\\.NET\\Mini_Ecommerce\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -113,7 +127,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -129,12 +143,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

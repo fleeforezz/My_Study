@@ -2,8 +2,6 @@ package com.group4.DLS.domain.dto.response;
 
 import com.group4.DLS.domain.enums.UserStatus;
 
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
