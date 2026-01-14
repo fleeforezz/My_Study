@@ -5,6 +5,7 @@ import com.group4.DLS.domain.dto.request.UserUpdateReq;
 import com.group4.DLS.domain.entity.User;
 import com.group4.DLS.exception.AppException;
 import com.group4.DLS.exception.enums.ErrorCode;
+import com.group4.DLS.mapper.UserMapper;
 import com.group4.DLS.repository.UserRepository;
 
 import java.util.List;
@@ -16,6 +17,9 @@ import org.springframework.stereotype.Service;
 public class UserService {
     @Autowired
     private UserRepository userRepo;
+
+    @Autowired
+    private UserMapper userMapper;
 
     // Get all users
     public List<User> getAllUsers() {
@@ -30,17 +34,11 @@ public class UserService {
 
     // Create user with email uniqueness check
     public User createUser(UserCreationReq request) {
-        User user = new User();
-
         if (userRepo.existsByEmail(request.getEmail())) {
             throw new AppException(ErrorCode.USER_EXISTS);
         }
 
-        user.setUsername(request.getUsername());
-        user.setPassword(request.getPassword());
-        user.setEmail(request.getEmail());
-        user.setStatus(request.getStatus());
-
+        User user = userMapper.toUser(request);
         return userRepo.save(user);
     }
 
