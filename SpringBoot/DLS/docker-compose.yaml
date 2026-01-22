@@ -1,0 +1,21 @@
+services:
+  backend:
+    image: dls-backend
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/DLS?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: TMNNT012928637160822863716
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQLDialect
+    depends_on:
+      - mysql
+    ports:
+      - "8080:8080"
+
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: DLS
+      MYSQL_ROOT_PASSWORD: TMNNT012928637160822863716
+    ports:
+      - "3306:3306"
