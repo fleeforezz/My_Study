@@ -1,13 +1,23 @@
 server:
   port: 8080
 
+# SeaweedFS Configuration
+seaweedfs:
+  master:
+    url: http://10.0.1.73:9333
+  volume:
+    url: http://10.0.1.73:8080
+  public:
+    url: http://10.0.1.73:8080
+
+
 spring:
   application:
     name: DLS
 
   datasource:
-    # url: "jdbc:mysql://jsomysql.duckdns.org:32768/DLS"
-    url: "jdbc:mysql://localhost:3306/DLS"
+    url: "jdbc:mysql://jsomysql.duckdns.org:32768/DLS"
+    # url: "jdbc:mysql://localhost:3306/DLS"
     username: root
     password: TMNNT012928637160822863716
 
@@ -19,3 +29,10 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
         "[format_sql]": true
+
+  # File Upload Configuration
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+      enabled: true
