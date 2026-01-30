@@ -12,6 +12,7 @@ public enum ErrorCode {
     
     USER_NOT_FOUND(404, "User not found"),
     USER_EXISTS(409, "User already exists"),
+    UNAUTHENTICATED(410, "UnAuthenticated"),
 
     INVALID_USERNAME(400, "Invalid username"),
     INVALID_PASSWORD(400, "Invalid password"),
